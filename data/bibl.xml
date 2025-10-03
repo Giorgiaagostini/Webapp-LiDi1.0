@@ -1,0 +1,383 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Elenco delle citazioni bibliografiche</title>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson type="autori_antichi">
+                    <person xml:id="a_ignoto">
+                        <persName>Autore non identificato</persName>
+                        <!--Autori non identificati: 
+                        Bio et Iosapho;
+                        Maurizio bibliotecario lateranense;
+                        Nysa
+                        Da Aggiungere:
+                        Sempronio Asellione ?
+                        Archiloco di Paro
+                        Platina
+                        merula;
+                        -->    
+                    </person>
+                <!--A-->
+                    <person xml:id="ant_lib" sameAs="https://www.wikidata.org/wiki/Q443765">
+                        <persName>Antonino Liberale</persName>
+                    </person>
+                    <person xml:id="alf_x" sameAs="https://www.wikidata.org/wiki/Q47595"> <!-- controllo abbreviazione -->
+                        <persName>Alfonso X di Castiglia</persName>
+                    </person>
+                    <person xml:id="app" sameAs="https://www.wikidata.org/wiki/Q190368">
+                        <persName>Appiano di Alessandria</persName>
+                    </person>
+                    <person xml:id="ap_rhod" sameAs="https://www.wikidata.org/wiki/Q192638">
+                        <persName>Apollonio Rodio</persName>
+                    </person>
+                    <person xml:id="arist" sameAs="https://www.wikidata.org/wiki/Q868">
+                        <persName>Aristotele</persName>
+                    </person>
+                    <!--B-->
+                    <person xml:id="beda" sameAs="https://www.wikidata.org/wiki/Q154938"> <!-- controllo abbreviazione -->
+                        <persName>Beda il Venerabile</persName>
+                    </person>
+                    <person xml:id="beros" sameAs="https://www.wikidata.org/wiki/Q312425"> <!-- controllo abbreviazione -->
+                        <persName>Beroso</persName>
+                    </person>
+                    <!--C-->
+                    <person xml:id="ptol" sameAs="https://www.wikidata.org/wiki/Q34943">
+                        <persName>Claudio Ptolomeo</persName>
+                    </person>
+                    <!--D-->
+                    <person xml:id="diod" sameAs="https://www.wikidata.org/wiki/Q171241">
+                        <persName>Diodoro Siculo</persName>
+                    </person>
+                    <person xml:id="dion_hal" sameAs="https://www.wikidata.org/wiki/Q26204">
+                        <persName>Dionigi di Alicarnasso</persName>
+                    </person>
+                    <person xml:id="dionys_per" sameAs="https://www.wikidata.org/wiki/Q1226993">
+                        <persName>Dionisio il Periegeta</persName>
+                    </person>
+                    <!--E-->
+                    <person xml:id="ephor" sameAs="https://www.wikidata.org/wiki/Q313791"> <!-- controllo abbreviazione -->
+                        <persName>Eforo di Cuma</persName>
+                    </person>
+                    <person xml:id="hegesipp" sameAs="https://www.wikidata.org/wiki/Q503230"> <!-- controllo abbreviazione -->
+                        <persName>Egesippo</persName>
+                    </person>
+                    <person xml:id="euseb" sameAs="https://www.wikidata.org/wiki/Q142999">
+                        <persName>Eusebio di Cesarea</persName>
+                    </person>
+                    <person xml:id="erod" sameAs="https://www.wikidata.org/wiki/Q26825">
+                        <persName>Erodoto</persName>
+                    </person>
+                    <person xml:id="hermipp" sameAs="https://www.wikidata.org/wiki/Q933860"> <!-- controllo abbreviazione -->
+                        <persName>Ermippo di Smirne</persName>
+                    </person>
+                    <!--F-->
+                    <person xml:id="phleg" sameAs="https://www.wikidata.org/wiki/Q138531"> <!-- controllo abbreviazione -->
+                        <persName>Flegonte di Tralles</persName>
+                    </person>
+                    <!--G-->
+                    <person xml:id="solin" sameAs="https://www.wikidata.org/wiki/Q520487">
+                        <persName>Gaio Giulio Solino</persName>
+                    </person>
+                    <person xml:id="sid_apoll" sameAs="https://www.wikidata.org/wiki/Q302936">
+                        <persName>Gaio Sollio Sidonio Apollinare</persName>
+                    </person>
+                    <!--L-->
+                    <person xml:id="lucan" sameAs="https://www.wikidata.org/wiki/Q188646">
+                        <persName>Lucano</persName>
+                    </person>
+                    <!--M-->
+                    <person xml:id="vitr" sameAs="https://www.wikidata.org/wiki/Q47163">
+                        <persName>Marco Vitruvio Pollione</persName>
+                    </person>
+                    <person xml:id="cato" sameAs="https://www.wikidata.org/wiki/Q180081">
+                        <persName>Marco Porcio Catone</persName>
+                    </person>
+                    <person xml:id="cic" sameAs="https://www.wikidata.org/wiki/Q1541">
+                        <persName>Marco Tullio Cicerone</persName>
+                    </person>
+                    <person xml:id="metrod_sceps" sameAs="https://www.wikidata.org/wiki/Q3333843"> <!--scepsio?--> <!-- controllo abbreviazione -->
+                        <persName>Metrodoro di Scepsi</persName>
+                    </person>
+                    <person xml:id="mart" sameAs="https://www.wikidata.org/wiki/Q2098">
+                        <persName>Marco Valerio Marziale</persName>
+                    </person>
+                    <person xml:id="varro" sameAs="https://www.wikidata.org/wiki/Q206119">
+                        <persName>Marco Terenzio Varrone</persName>
+                    </person>
+                    <person xml:id="verr_flac" sameAs="https://www.wikidata.org/wiki/Q454995"> <!-- controllo abbreviazione -->
+                        <persName>Marco Verrio Flacco</persName>
+                    </person>
+                    <person xml:id="epaph" sameAs="https://www.wikidata.org/wiki/Q6758334"> <!-- controllo abbreviazione -->
+                        <persName>Marco Mezio Epafrodito</persName>
+                    </person>
+                    <!--N-->
+                    <person xml:id="nic_con" sameAs="https://www.wikidata.org/wiki/Q297340">
+                        <persName>Niceta Coniata</persName>
+                    </person>
+                    <!--O-->
+                    <person xml:id="horap" sameAs="https://www.wikidata.org/wiki/Q364379"> <!-- controllo abbreviazione -->
+                        <persName>Orapollo</persName>
+                    </person>
+                    <person xml:id="hom" sameAs="https://www.wikidata.org/wiki/Q6691">
+                        <persName>Omero</persName>
+                    </person>
+                    <person xml:id="ov" sameAs="https://www.wikidata.org/wiki/Q7198">
+                        <persName>Ovidio</persName>
+                    </person>
+                    <!--P-->
+                    <person xml:id="pind" sameAs="https://www.wikidata.org/wiki/Q134929">
+                        <persName>Pindaro</persName>
+                    </person>
+                    <person xml:id="paul" sameAs="https://www.wikidata.org/wiki/Q160424">
+                        <persName>Paolo Diacono</persName>
+                    </person>
+                    <person xml:id="oros" sameAs="https://www.wikidata.org/wiki/Q311456">
+                        <persName>Paolo Orosio</persName>
+                    </person>
+                    <person xml:id="plin" sameAs="https://www.wikidata.org/wiki/Q82778">
+                        <persName>Plinio il Vecchio</persName>
+                    </person>
+                    <person xml:id="plin_jun" sameAs="https://www.wikidata.org/wiki/Q168707">
+                        <persName>Plinio il Giovane</persName>
+                    </person>
+                    <person xml:id="paus" sameAs="https://www.wikidata.org/wiki/Q192931">
+                        <author>Pausania</author>
+                    </person>
+                    <person xml:id="plut" sameAs="https://www.wikidata.org/wiki/Q41523">
+                        <persName>Plutarco</persName>
+                    </person>
+                    <person xml:id="verg" sameAs="https://www.wikidata.org/wiki/Q1398">
+                        <persName>Publio Virgilio Marone</persName>
+                    </person>
+                    <person xml:id="trog" sameAs="https://www.wikidata.org/wiki/Q316119"> <!-- controllo abbreviazione -->
+                        <persName>Pompeo Trogo</persName>
+                    </person>
+                    <!--Q-->
+                    <!--R-->
+                    <person xml:id="ricc_ferrar" sameAs="https://www.wikidata.org/wiki/Q3934689"> <!-- controllo abbreviazione -->
+                        <persName>Riccobaldo da Ferrara</persName>
+                    </person>
+                    <person xml:id="rufin" sameAs="https://www.wikidata.org/wiki/Q365835"> <!-- controllo abbreviazione -->
+                        <persName>Rufino Tirannio</persName>
+                    </person>
+                    <!--S-->
+                    <person xml:id="sil" sameAs="https://www.wikidata.org/wiki/Q316123">
+                        <persName>Silio Italico</persName>
+                    </person>
+                    <person xml:id="steph_byz" sameAs="https://www.wikidata.org/wiki/Q380881">
+                        <persName>Stefano di Bisanzio</persName>
+                    </person>
+                    <person xml:id="strab" sameAs="https://www.wikidata.org/wiki/Q45936"> <!-- controllo abbreviazione -->
+                        <persName>Strabone</persName>
+                    </person>
+                    <person xml:id="prop" sameAs="https://www.wikidata.org/wiki/Q8827">
+                        <persName>Sesto Aurelio Properzio</persName>
+                    </person>
+                    <!--T-->
+                    <person xml:id="livy" sameAs="https://www.wikidata.org/wiki/Q2039">
+                        <persName>Tito Livio</persName>
+                    </person>
+                    <person xml:id="timosth" sameAs="https://www.wikidata.org/wiki/Q7807000"> <!-- controllo abbreviazione -->
+                        <persName>Timostene</persName>
+                    </person>
+                    <!--V-->
+                    <person xml:id="vib_seq" sameAs="https://www.wikidata.org/wiki/Q431367">
+                        <persName>Vibio Sequestre</persName>
+                    </person>
+                </listPerson>
+                <listPerson type="autori_moderni">
+                    <person xml:id="giacomo-mazzocchi" sameAs="https://www.wikidata.org/wiki/Q5557901">
+                        <persName>Giacomo Mazzocchi</persName>
+                    </person>
+                    <person xml:id="agostino-maffei" sameAs="https://www.wikidata.org/wiki/Q110218440">
+                        <persName>Agostino Maffei</persName>
+                    </person>
+                    <person xml:id="onofrio-panvinio" sameAs="https://www.wikidata.org/wiki/Q1771889">
+                        <persName>Onofrio Panvinio</persName>
+                    </person>
+                    <person xml:id="pico-della-mirandola" sameAs="https://www.wikidata.org/wiki/Q182128">
+                        <persName>Giovanni Pico della Mirandola</persName>
+                    </person>
+                    <person xml:id="lucido-cattanei" sameAs="https://www.wikidata.org/wiki/Q132947427">
+                        <persName>Giovanni Lucido Cattanei</persName>
+                    </person>
+                    <person xml:id="biondo-flavio" sameAs="https://www.wikidata.org/wiki/Q434834">
+                        <persName>Biondo Flavio</persName>
+                    </person>
+                    <person xml:id="francesco-petrarca" sameAs="https://www.wikidata.org/wiki/Q1401">
+                        <persName>Francesco Petrarca</persName>
+                    </person>
+                </listPerson>
+                <listBibl>
+                    <bibl xml:id="rif_ignoto">Riferimento non identificato</bibl>
+                    <bibl xml:id="livy_">
+                        <author ref="#livy"/>
+                    </bibl>
+                    <bibl xml:id="epaph_">
+                        <author ref="#epaph"/>
+                    </bibl>
+                    <bibl xml:id="sid_apoll_epist_i">
+                        <author ref="#sid_apoll"/>
+                        <title xml:id="epist" sameAs="https://www.wikidata.org/wiki/Q28370571">Epistulae</title>
+                        <biblScope unit="libro">I</biblScope>
+                    </bibl>
+                    <bibl xml:id="sid_apoll_epist_i_5_5">
+                        <author ref="#sid_apoll"/>
+                        <title ref="#epist"/>
+                        <biblScope unit="libro">I</biblScope>
+                        <biblScope unit="epistola">5</biblScope>
+                        <citedRange>5</citedRange>
+                    </bibl>
+                    <bibl xml:id="sid_apoll_epist_i_8"> 
+                        <author ref="#sid_apoll"/>
+                        <title ref="#epist"/>
+                        <biblScope unit="libro">I</biblScope>
+                        <biblScope unit="epistola">8</biblScope>
+                    </bibl>
+                    <bibl xml:id="petrarca_61">
+                        <author ref="#francesco-petrarca"/>
+                        <title xml:id="canz" sameAs="https://www.wikidata.org/wiki/Q777574">Canzoniere</title>
+                        <citedRange unit="verso">61</citedRange>
+                    </bibl>
+                    <bibl xml:id="mazzocchi_eaur"> <!-- abbrev ? -->
+                        <author ref="#giacomo-mazzocchi"/>
+                        <title xml:id="eaur" sameAs="http://viaf.org/viaf/37159474046327660177">Epigrammata Antiquae Urbis Romae</title>
+                    </bibl>
+                    <bibl xml:id="euseb_chron">
+                        <author ref="#euseb"/>
+                        <title xml:id="chron" sameAs="https://www.wikidata.org/wiki/Q3675945">Chronica</title>
+                    </bibl>
+                    <bibl xml:id="sil_pun_8_600_603">
+                        <author ref="#sil"/>
+                        <title xml:id="pun" sameAs="https://www.wikidata.org/wiki/Q1219433">Punica</title>
+                        <biblScope>8</biblScope>
+                        <citedRange>600-603</citedRange>
+                    </bibl>
+                    <bibl xml:id="dion_hal_ant_rom">
+                        <author ref="#dion_hal"/>
+                        <title xml:id="ant_rom" sameAs="https://www.wikidata.org/wiki/Q3618627">Antiquitaes Romanae</title>
+                    </bibl>
+                    <bibl xml:id="ptol_geog">
+                        <author ref="#ptol"/>
+                        <title xml:id="geog" sameAs="https://www.wikidata.org/wiki/Q1194350">Geografia</title>
+                    </bibl>
+                    <bibl xml:id="ptol_geog_2"> 
+                        <author ref="#ptol"/>
+                        <title ref="#geog"/>
+                        <biblScope unit="libro">2</biblScope>
+                    </bibl>
+                    <bibl xml:id="cic_">
+                        <author ref="#cic"/>
+                        <title><!-- epistole --></title>
+                    </bibl>
+                    <bibl xml:id="mart_ep_3_93">
+                        <author ref="#mart"/>
+                        <title xml:id="ep" sameAs="https://www.wikidata.org/wiki/Q16604285">Epigrammata</title> <!-- dato da me -->
+                        <biblScope unit="libro">3</biblScope>
+                        <citedRange unit="distico">93</citedRange>
+                    </bibl>
+                    <bibl xml:id="mart_ep_3_56_57">
+                        <author ref="#mart"/>
+                        <title ref="#ep"/>
+                        <biblScope unit="libro">3</biblScope>
+                        <citedRange unit="distico">56-57</citedRange>
+                    </bibl>
+                    <bibl xml:id="mart_ep_13_21"> 
+                        <author ref="#mart"/>
+                        <title ref="#ep"/>
+                        <biblScope unit="libro">13</biblScope>
+                        <citedRange unit="distico">21</citedRange>
+                    </bibl>
+                    <bibl xml:id="ov_met_3_405_417">
+                        <author ref="#ov"/>
+                        <title xml:id="met" sameAs="https://www.wikidata.org/wiki/Q184742">Le Metamorfosi</title>
+                        <biblScope unit="libro">3</biblScope>
+                        <citedRange>405-417</citedRange>
+                    </bibl>
+                    <bibl xml:id="plin_hn_3_XIX_XX">
+                        <author ref="#plin"/>
+                        <title xml:id="hn" sameAs="https://www.wikidata.org/wiki/Q442">Naturalis Historia</title>
+                        <biblScope unit="libro">3</biblScope>
+                        <citedRange unit="capo">XIX-XX</citedRange>
+                        <citedRange>XXII</citedRange>
+                     </bibl>  
+                    <bibl xml:id="plin_hn_3_XXII">
+                        <author ref="#plin"/>
+                        <title ref="#hn"/>
+                        <biblScope unit="libro">3</biblScope>
+                        <citedRange>XXII</citedRange>
+                    </bibl>  
+                    <bibl xml:id="plin_hn_3_XV">
+                        <author ref="#plin"/>
+                        <title ref="#hn"/>
+                        <biblScope unit="libro">3</biblScope>
+                        <citedRange>XV</citedRange>
+                    </bibl> 
+                    <bibl xml:id="plin_hn_3_XII">
+                        <author ref="#plin"/>
+                        <title ref="#hn"/>
+                        <biblScope unit="libro">3</biblScope>
+                        <citedRange>XII</citedRange>
+                    </bibl>  
+                    <bibl xml:id="plin_hn_4_XVII">
+                        <author ref="#plin"/>
+                        <title ref="#hn"/>
+                        <biblScope unit="libro">4</biblScope>
+                        <citedRange>XVII</citedRange>
+                    </bibl> 
+                    <bibl xml:id="strab_geo">
+                        <author ref="#strab"/>
+                        <title xml:id="geo" sameAs="https://www.wikidata.org/wiki/Q690653">Geografia</title>
+                    </bibl>
+                    <bibl xml:id="strab_geo_5">
+                        <author ref="#strab"/>
+                        <title ref="#geo"/>
+                        <biblScope unit="libro">5</biblScope>
+                    </bibl>
+                    <bibl xml:id="suda">
+                        <title sameAs="https://www.wikidata.org/wiki/Q1534037">Suida</title>
+                    </bibl>
+                    <bibl xml:id="verg_g_2">
+                        <author ref="#verg"/>
+                        <title xml:id="g" sameAs="https://www.wikidata.org/wiki/Q674439">Georgica</title>
+                        <biblScope unit="libro">2</biblScope>
+                    </bibl>
+                    <bibl xml:id="verg_g_2_95_96">
+                        <author ref="#verg"/>
+                        <title ref="#g"/>
+                        <biblScope unit="libro">2</biblScope>
+                        <citedRange>95-96</citedRange>
+                    </bibl>
+                    <bibl xml:id="pro_ele_4_87">
+                        <author ref="#pro"/>
+                        <title xml:id="ele" sameAs="https://www.wikidata.org/wiki/Q3721321">Elegie</title>
+                        <biblScope unit="libro">4</biblScope>
+                        <citedRange>87</citedRange>
+                    </bibl>
+                    <bibl xml:id="pro_ele_4_1-16">
+                        <author ref="#pro"/>
+                        <title ref="#ele"/>
+                        <biblScope unit="libro">4</biblScope>
+                        <citedRange>1-16</citedRange>
+                    </bibl>
+                    <bibl xml:id="pro_ele_4_53-56">
+                        <author ref="#pro"/>
+                        <title ref="#ele"/>
+                        <biblScope unit="libro">4</biblScope>
+                        <citedRange>53-56</citedRange>
+                    </bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

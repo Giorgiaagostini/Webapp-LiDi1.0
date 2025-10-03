@@ -1,0 +1,168 @@
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="pb-template" content="get-place.html"/>
+        <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes"/>
+        <link rel="shortcut icon" type="image/x-icon" href="resources/images/favicon.ico"/>
+        <link rel="shortcut icon" type="image/png" href="resources/images/favicon-16.png" sizes="16x16"/>
+        <link rel="shortcut icon" type="image/png" href="resources/images/favicon-24.png" sizes="24x24"/>
+        <link rel="shortcut icon" type="image/png" href="resources/images/favicon-32.png" sizes="32x32"/>
+        <link rel="shortcut icon" type="image/png" href="resources/images/favicon-64.png" sizes="64x64"/>
+
+        <title data-template="config:app-title"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald"/>
+        <link rel="stylesheet" href="resources/css/theme.css"/>
+        <link rel="stylesheet" href="resources/css/lidi10.css"/>
+        <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"/>
+        <script src="https://unpkg.com/wikidata-elements@0.1.0/dist/wd-elements.umd.js"/>
+        <style>
+            main {
+                display: block;
+                margin: 20px auto 20px auto;
+                width: 800px;
+            }
+
+            .targets paper-checkbox {
+                margin-top: 10px;
+            }
+
+            #results {
+                flex: 2 1;
+                overflow: scroll;
+                margin: 0 20px;
+                height: calc(100vh - 140px);
+            }
+
+            #results paper-card {
+                width: 100%;
+                margin-bottom: 15px;
+                padding: 8px;
+            }
+
+            #results header {
+                display: block;
+                justify-content: flex-start;
+            }
+            
+            #results .count {
+                margin-right: 20px;
+                font-weight: bold;
+            }
+            /* .breadcrumb:link, */
+            .breadcrumb:visited {
+                text-decoration: none;
+                color: var(--paper-grey-600);
+            }
+            .breadcrumb:before {
+                content: '&gt;';
+                padding: 0 8px;
+                font-weight: bold;
+            }
+            .breadcrumb:first-child::before {
+                content: '';
+            }
+            .matches {
+                display: table;
+                margin-left: 20px;
+                margin-top: 10px;
+                font: var(--pb-results-body-font);
+            }
+            .matches p {
+                display: table-row;
+            }
+            .matches p * {
+                display: table-cell;
+                padding: 4px 8px;
+            }
+
+            .hi {
+                display: block;
+            }
+
+            #facets h3 {
+                display: flex;
+                flex-direction: row;
+                align-self: center;
+                justify-content: space-between;
+            }
+
+            #facets h3 paper-checkbox {
+                font-size: 85%;
+            }
+
+            #facets table td:nth-child(2) {
+                color: #808080;
+                text-align: right;
+                padding-left: 1em;
+                vertical-align: middle;
+            }
+
+            #download-button, .menu-edit-odd {
+                display: none;
+            }
+        </style>
+        
+    </head>
+    <body>
+        <pb-page data-template="pages:pb-page" unresolved="unresolved" theme="resources/css/components.css">
+            <app-header-layout>
+                <app-header slot="header" reveals="reveals" fixed="fixed" effects="waterfall">
+                    <app-toolbar data-template="lib:include" data-template-path="templates/menu.html">
+                        <pb-progress subscribe="place-search" indeterminate="indeterminate" bottom-item="bottom-item" data-target="menubar-after"/>
+                    </app-toolbar>
+                </app-header>
+                <main>
+                    <div class="container">
+                    <h1 id="titolo">Loading...</h1>
+                    <p>Riferimento esterno: <a target="_blank" id="ext-src"/></p>
+                    </div>
+                    <div class="container">
+                    <pb-load id="myresults" url="api/get-place" container="#results" data-template="pages:parse-params" wait-for="lidi-load-event" expand="expand" subscribe="lidi-go-channel" auto=""/>
+                    
+                    <h2>Menzioni</h2>
+                    <div class="container" id="results">
+                    </div>
+                    
+                    <div class="container embd-wikidata">
+                        <!--wd-entity entity-id="Q42" label lang="it"-->
+                        <!--img is="wd-link" entity-id="P948" property="Q199952" /-->
+                        <!--iframe src="https://www.wikidata.org/wiki/Q199952"/-->
+                    </div>
+                        
+                    </div>
+                    
+                    
+                </main>
+                <footer data-template="templates:include" data-template-path="templates/footer.html"/>
+            </app-header-layout>
+        </pb-page>
+    </body>
+    <script>
+        window.addEventListener('load', () =&gt; {
+            var url = new URL(window.location.href);
+            var q = url.searchParams.get("p");
+
+            var usrpar = '{"query":"'+q+'"}';
+
+            console.log(usrpar)
+            document.querySelector('#myresults').setAttribute('userparams', usrpar);
+
+            pbEvents.subscribe('lidi-load-event', 'lidi-go-channel', (e) =&gt; console.log(e), true);
+    
+            pbEvents.emit('lidi-load-event', 'lidi-go-channel');
+
+            document.querySelector('#titolo').textContent = q.charAt(0).toUpperCase() + q.slice(1);
+            console.log("FINE");
+            
+            var extUrl = url.searchParams.get("ext");
+
+            //https://www.wikidata.org/wiki/Q5690            
+            // https://pleiades.stoa.org/places/1332
+            document.querySelector('#ext-src').textContent = extUrl;
+            document.querySelector('#ext-src').setAttribute("href", "https://"+extUrl);
+            console.log("FINE 2 " + extUrl);
+        });
+        
+        
+</script>
+</html>

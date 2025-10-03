@@ -1,0 +1,15 @@
+/*
+   Documentazione disponibile a https://teipublisher.com/exist/apps/tei-publisher/documentation/css-styling-components
+   
+   
+*/
+
+div {
+    background:green;
+}
+
+pb-view {
+
+    overflow-y: scroll;
+    background:;
+}

@@ -1,0 +1,528 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "1.0.0",
+        "title": "Custom API",
+        "description": "This is the place to add your own path endpoints"
+    },
+    "servers": [
+        {
+            "description": "Endpoint for testing on localhost",
+            "url":"/exist/apps/LiDi"
+        }
+    ],
+    "components": {
+        "securitySchemes": {
+            "basicAuth": {
+                "type": "http",
+                "scheme": "basic"
+            },
+            "cookieAuth": {
+                "type": "apiKey",
+                "name": "teipublisher.com.login",
+                "in": "cookie"
+            }
+        }
+    },
+    "tags": [
+        {
+            "name": "encyclopedia",
+            "description": "Endpoints used by the 'Damen Conversations Lexikon'"
+        },
+        {
+            "name": "documentation",
+            "description": "Endpoints for displaying the documentation using a custom URL"
+        },
+        {
+            "name": "iiif",
+            "description": "Endpoints providing IIIF presentation manifests"
+        }
+    ],
+    "paths": {
+	    "/api/places": {
+    	    "get": {
+        	    "summary": "List places",
+            	"description": "Retrieve list of places in format required by pb-split-list",
+            	"operationId": "custom:places",
+            	"parameters": [
+                	{
+                    	"name": "category",
+                    	"in": "query",
+                    	"schema": {
+                        	"type": "string",
+                        	"example": "A"
+                    	}
+                	},
+                	{
+                    	"name": "limit",
+                    	"in": "query",
+                    	"schema": {
+                        	"type": "integer",
+                        	"default": 50
+                    	}
+                	},
+                	{
+                    	"name": "search",
+                    	"in": "query",
+                    	"schema":{
+                        	"type": "string"
+                    	}
+                	}
+            	],
+            	"responses": {
+                	"200": {
+                    "description": "Categories and places to display",
+                    "content": {
+                        "application/json": {
+                            "schema":{
+                                "type": "object",
+                                "properties": {
+                                    "items": {
+                                        "type": "array",
+                                        "items": {
+                                            "type": "string"
+                                        }
+                                    },
+                                    "categories": {
+                                        "type": "array",
+                                        "items": {
+                                            "type": "object",
+                                            "properties": {
+                                                "category": {
+                                                    "type": "string"
+                                                },
+                                                "count": {
+                                                    "type": "integer"
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+        "/api/get-place": {
+    	    "get": {
+        	    "summary": "Search one place",
+            	"description": "Retrieve list of places in format required by pb-split-list",
+            	"operationId": "custom:get-place",
+            	"parameters": [
+                	{
+                    	"name": "query",
+                    	"in": "query",
+                    	"schema": {
+                        	"type": "string",
+                        	"example": "A"
+                    	}
+                	},
+                	{
+                    	"name": "limit",
+                    	"in": "query",
+                    	"schema": {
+                        	"type": "integer",
+                        	"default": 50
+                    	}
+                	},
+                	{
+                    	"name": "search",
+                    	"in": "query",
+                    	"schema":{
+                        	"type": "string"
+                    	}
+                	},
+                						{
+						"name": "start",
+						"in": "query",
+						"description": "Start offset of the first item to show from the result set",
+						"schema": {
+							"type": "integer",
+							"default": 1
+						}
+					},
+					{
+						"name": "per-page",
+						"in": "query",
+						"description": "Number of items to show on one page",
+						"schema": {
+							"type": "integer",
+							"default": 10
+						}
+					},
+					{
+						"name": "doc",
+						"in": "query",
+						"schema": {
+							"type": "array",
+							"items": {
+								"type": "string"
+							},
+							"nullable": true
+						}
+					}
+            	],
+            	"responses": {
+                	"200": {
+						"description": "Search results returned",
+						"content": {
+							"text/html": {
+								"schema": {
+									"type": "string"
+								}
+							}
+						}
+                }
+            }
+        }
+    },
+    "/get/place/{name}": {
+        "get": {
+                    "summary": "Retrieve the HTML template used for displaying places metadata",
+                    "description": "Get the HTML template associated with the given document. This is called whenever the users tries to view a document. The actual content of the document will then be loaded by the template.",
+                    "tags": ["view"],
+                    "operationId": "vapi:html",
+                    "parameters": [
+                        {
+                            "name": "name",
+                            "in": "path",
+                            "description": "Name of the place",
+                            "required": true,
+                            "schema": {
+                                "type": "string",
+                                "example": "Acebedo"
+                            },
+                            "allowReserved": true
+                        },
+                        {
+                            "name": "p",
+                            "in": "query",
+                            "schema": {
+                                "type": "string",
+                                "default": "rieti"
+                            }
+                        },
+                        {
+                            "name": "file",
+                            "in": "query",
+                            "schema": {
+                                "type": "string",
+                                "default": "get-place"
+                            }
+                        }
+                    ],
+                    "responses": {
+                        "200": {
+                            "description": "HTML view for the document",
+                            "content": {
+                                "text/html": {
+                                    "schema": {
+                                        "type": "string"
+                                    }
+                                }
+                            }
+                        },
+                        "404": {
+                            "description": "The document was not found",
+                            "content": {
+                                "text/html": {
+                                    "schema": {
+                                        "type": "string"
+                                    }
+                                }
+                            }
+                        },
+                        "500": {
+                            "description": "An error occured",
+                            "content": {
+                                "text/html": {
+                                    "schema": {
+                                        "type": "string"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+        "/encyclopedia": {
+            "get": {
+                "summary": "Encyclopedia root page",
+				"description": "Registers a custom URL for the encyclopedia example (Damen Conversations Lexikon) to be used instead of the document name.",
+                "operationId": "vapi:view",
+				"x-error-handler": "vapi:handle-error",
+                "tags": ["encyclopedia"],
+				"parameters": [
+					{
+						"name": "file",
+						"in": "query",
+						"schema": {
+							"type": "string",
+                            "default": "pages/tei-lex"
+						}
+					},
+                    {
+						"name": "docid",
+						"in": "query",
+						"description": "Relative path to the document",
+						"required": true,
+						"schema": {
+							"type": "string",
+							"example": "test/orlik_to_serafin.xml",
+                            "default": "test/DamenConvLex-1834.xml"
+						},
+						"allowReserved": true
+					}
+				],
+				"responses": {
+					"200": {
+						"description": "HTML of the page",
+						"content": {
+							"text/html": {
+								"schema": {
+									"type": "string"
+								}
+							}
+						}
+					},
+					"404": {
+						"description": "The document was not found",
+						"content": {
+							"text/html": {
+								"schema": {
+									"type": "string"
+								}
+							}
+						}
+					}
+				}
+            }
+        },
+        "/encyclopedia/{search}": {
+            "get": {
+                "summary": "Show encyclopedia entry matching {search}",
+				"description": "Search endpoint used for the encyclopedia example (Damen Conversations Lexikon)",
+                "operationId": "vapi:view",
+				"x-error-handler": "vapi:handle-error",
+                "tags": ["encyclopedia"],
+				"parameters": [
+					{
+						"name": "file",
+						"in": "query",
+						"schema": {
+							"type": "string",
+                            "default": "pages/tei-lex"
+						}
+					},
+                    {
+						"name": "docid",
+						"in": "query",
+						"description": "Relative path to the document",
+						"required": true,
+						"schema": {
+							"type": "string",
+							"example": "test/orlik_to_serafin.xml",
+                            "default": "test/DamenConvLex-1834.xml"
+						},
+						"allowReserved": true
+					},
+					{
+						"name": "search",
+						"in": "path",
+						"description": "headword query",
+						"required": true,
+						"schema": {
+							"type": "string"
+						}
+					}
+				],
+				"responses": {
+					"200": {
+						"description": "HTML of the page",
+						"content": {
+							"text/html": {
+								"schema": {
+									"type": "string"
+								}
+							}
+						}
+					},
+					"404": {
+						"description": "The document was not found",
+						"content": {
+							"text/html": {
+								"schema": {
+									"type": "string"
+								}
+							}
+						}
+					}
+				}
+            }
+        },
+        "/api/lemma": {
+            "get": {
+                "summary": "List encyclopedia headwords",
+                "description": "Retrieve list of headwords in format required by pb-split-list. Used by the encyclopedia sample (Damen Conversations Lexikon)",
+                "operationId": "custom:lemmata",
+                "tags": ["encyclopedia"],
+                "parameters": [
+					{
+						"name": "category",
+						"in": "query",
+						"schema": {
+							"type": "string"
+						}
+					},
+                    {
+                        "name": "limit",
+                        "in": "query",
+                        "schema": {
+                            "type": "integer",
+                            "default": 20
+                        }
+                    },
+                    {
+                        "name": "search",
+                        "in": "query",
+                        "schema":{
+                            "type": "string"
+                        }
+                    }
+					,
+					{
+						"name": "lang",
+						"in": "query",
+						"schema": {
+							"type": "string"
+						}
+					}
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Categories and places to display",
+                        "content": {
+                            "application/json": {
+                                "schema":{
+                                    "type": "object"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/documentation": {
+            "get": {
+                "summary": "Select the HTML template for viewing the documentation",
+                "description": "Returns the root of the documentation",
+                "operationId": "vapi:view",
+				"x-error-handler": "vapi:handle-error",
+                "tags": ["documentation"],
+                "parameters": [
+                    {
+						"name": "template",
+						"in": "query",
+						"schema": {
+							"type": "string",
+                            "default": "pages/documentation.html"
+						}
+					},
+                    {
+                        "name": "docid",
+                        "in": "query",
+                        "schema": {
+                            "type": "string",
+                            "default": "doc/documentation.xml"
+                        }
+                    },
+                    {
+                        "name": "base",
+                        "in": "query",
+                        "schema": {
+                            "type": "string",
+                            "default": "doc/documentation.xml"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "HTML template for documentation",
+                        "content": {
+                            "text/html": {
+                                "schema": {
+                                    "type": "string"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/documentation/{id}": {
+            "get": {
+                "summary": "Select the HTML template for viewing the documentation",
+                "description": "Shows a particular chapter as indicated by the id",
+                "tags": ["documentation"],
+                "operationId": "vapi:view",
+				"x-error-handler": "vapi:handle-error",
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "required": true,
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+						"name": "template",
+						"in": "query",
+						"schema": {
+							"type": "string",
+                            "default": "pages/documentation.html"
+						}
+					},
+                    {
+                        "name": "docid",
+                        "in": "query",
+                        "schema": {
+                            "type": "string",
+                            "default": "doc/documentation.xml"
+                        }
+                    },
+                    {
+                        "name": "base",
+                        "in": "query",
+                        "schema": {
+                            "type": "string",
+                            "default": "../doc/documentation.xml"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "HTML template for documentation",
+                        "content": {
+                            "text/html": {
+                                "schema": {
+                                    "type": "string"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "security": [
+        {
+            "cookieAuth": []
+        },
+        {
+            "basicAuth": []
+        }
+    ]
+}

@@ -1,0 +1,148 @@
+<html>
+
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes"/>
+    <link rel="shortcut icon" type="image/x-icon" href="resources/images/favicon.ico"/>
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-16.png" sizes="16x16"/>
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-24.png" sizes="24x24"/>
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-32.png" sizes="32x32"/>
+    <link rel="shortcut icon" type="image/png" href="resources/images/favicon-64.png" sizes="64x64"/>
+
+    <title data-template="config:app-title"/>
+    <meta name="description" content="LiDi Template"/>
+    <link rel="stylesheet" href="resources/css/theme.css"/>
+    <link rel="stylesheet" href="resources/css/lidi10.css"/>
+    <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"/>
+    <style>
+        body {
+            --pb-view-height: calc(100vh - 250px);
+        }
+
+        #view1 {
+            flex: 1 1;
+            height: var(--pb-view-height);
+        }
+
+        .content-body {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            padding: 0 20px;
+            
+        }
+        
+        div.view {
+            height: var(--pb-view-height);
+            overflow: scroll;
+        }
+        
+        div.content-body, #view1, div.tei-body2, div.content, div#content {
+            overflow: scroll;
+                        overflow-y: scroll;
+        }
+        
+        #view1 {
+            overflow: scroll;
+            overflow-y: scroll;
+            scrollbar-width: 10px;
+        }
+
+        .content-body pb-facsimile {
+            flex: 1 1;
+            --pb-facsimile-height: var(--pb-view-height);
+        }
+
+        .facscaption {
+            font-size: 75%;
+            text-align: right;
+            margin-right: 10px;
+        }
+            
+        @media (max-width: 769px) {
+            pb-facsimile {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <pb-page data-template="pages:pb-page" unresolved="unresolved" theme="resources/css/components.css">
+        <pb-document id="document1" data-template="pages:pb-document"/>
+        <app-drawer-layout force-narrow="force-narrow">
+            <app-drawer data-template="lib:include" data-template-path="templates/drawer.html"/>
+            <app-header-layout>
+                <app-header slot="header" fixed="fixed">
+                    <app-toolbar data-template="lib:include" data-template-path="templates/menu.html"/>
+                    <!-- Overwrite toolbar to add metadata toggle -->
+                    <app-toolbar data-template="lib:include" data-template-path="templates/toolbar.html">
+                        
+                        <paper-button id="metaToggle" raised="raised" data-target="toolbar-before">
+                            <iron-icon icon="icons:info-outline"/>Metadata
+                        </paper-button>
+                    </app-toolbar>
+                </app-header>
+                
+                <!-- Metadata -->
+                <pb-drawer toggle="metaToggle" class="tocDrawer" emit="toc" subscribe="transcription">
+                    <div class="drawer-content">
+                        <h3>Metadata</h3>
+                        <pb-view id="commentary" src="document1" xpath="//teiHeader" view="single" subscribe="toc">
+                            <pb-param name="mode" value="commentary"/>
+                        </pb-view>
+                    </div>
+                </pb-drawer>
+                
+                <!-- Ricerca nella pagina. aggiunta ma poi spostata -->
+                <!--pb-page endpoint="https://teipublisher.com/exist/apps/tei-publisher/" api-version="1.0.0" url-path="query">
+		        <pb-progress/>
+		    <main>
+		    <pb-search id="search-form" current-doc="Libro_XVII_1-48.xml">
+                  <div class="buttons">
+                   <paper-button slot="searchButton">
+                                        <pb-i18n key="search.search"/>
+                                    </paper-button>
+                   <paper-button slot="resetButton">
+                                        <pb-i18n key="search.reset"/>
+                                    </paper-button>
+                 </div>
+                </pb-search>
+                <pb-paginate per-page="10" range="5"/>
+                <pb-load url="templates/search-results.html"></pb-load>
+                <pb-load url="api/search"/>
+            </main>
+            </pb-page-->
+        
+                <!-- Indice -->
+                <pb-drawer toggle="tocToggle" class="toc" emit="toc" subscribe="transcription">
+                    <div class="drawer-content">
+                        <h3>
+                            <pb-i18n key="document.contents">Contents</pb-i18n>
+                        </h3>
+                        <pb-load id="toc" url="api/document/{doc}/contents?target=transcription&amp;icons=true" expand="expand" src="document1" subscribe="toc" load-once="load-once">
+                                <pb-i18n key="dialogs.loading">Loading</pb-i18n>
+                        </pb-load>
+                    </div>
+                </pb-drawer>
+                
+                <!-- Titolo -->
+                <!-- section class="breadcrumbs">
+                    
+                </section -->
+                
+                <!--Facsimile-->
+                <div class="facscaption"> © Diritti Delle Immagini: Archivio Di Stato Di Torino, Piazza Castello, 209 -10124 Torino
+                    </div>
+                <main class="content-body">
+                    <pb-view id="view1" src="document1" column-separator=".tei-cb" append-footnotes="append-footnotes" subscribe="transcription" emit="transcription" wait-for="#facsimile"/>
+                    <pb-facsimile id="facsimile" type="image" base-uri="https://lidi10.cloud/iiif/3/" default-zoom-level="0" show-navigation-control="show-navigation-control" show-navigator="show-navigator" subscribe="transcription"/> 
+                </main>
+                <footer data-template="templates:include" data-template-path="templates/footer.html"/>
+            </app-header-layout>
+        </app-drawer-layout>
+    </pb-page>
+    <div class="splash"/>
+</body>
+
+</html>

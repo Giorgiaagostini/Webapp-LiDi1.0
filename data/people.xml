@@ -1,0 +1,56 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Elenco delle persone</title>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <listPerson>
+                    <person xml:id="p_ignota">
+                        <persName>Persona non identificata</persName>
+                    </person>
+                    <!-- Frate Aurelio hermita ferariense; 
+                        Cardinale Verzelli;
+                        Fabrizio Nolfi; ?
+                        Fabiano De Monti ?
+                        Tommaso Spica
+                        Giovan Franceso e Laurentio Sonantij
+                        Pietro Silverio
+                    -->
+                    <person xml:id="achille-maffei" sameAs="http://viaf.org/viaf/4186150688334112660004">
+                        <persName>Achille Maffei</persName> 
+                    </person>
+                    <person xml:id="angelo-colocci" sameAs="https://www.wikidata.org/wiki/Q3616936">
+                        <persName>Angelo Colocci</persName>
+                    </person>
+                    <person xml:id="alfonso-II-deste" sameAs="https://www.wikidata.org/wiki/Q1856074">
+                        <persName>Alfonso II d'Este</persName>
+                    </person>
+                    <person xml:id="andrea-palladio" sameAs="https://www.wikidata.org/wiki/Q177692">
+                        <persName>Andrea Palladio</persName>
+                    </person>
+                    <person xml:id="giacomo-trivulzio" sameAs="https://www.wikidata.org/wiki/Q742997">
+                        <persName>Gian Giacomo Trivulzio</persName>
+                    </person>
+                    <person xml:id="petronio-barbato" sameAs="http://viaf.org/viaf/89062588">
+                        <persName>Petronio Barbato</persName>
+                    </person>
+                    <person xml:id="vincenzo-carrari" sameAs="https://www.wikidata.org/wiki/Q4013150">
+                        <persName>Vincenzo Carrari</persName>
+                    </person>
+                    <person xml:id="orazio-grillenzoni" sameAs="https://www.wikidata.org/wiki/Q56164712">
+                        <persName>Orazio Grillenzoni</persName>
+                    </person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>

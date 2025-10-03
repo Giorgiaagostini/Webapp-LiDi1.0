@@ -1,0 +1,526 @@
+<?teipublisher template="view.html"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Elenco dei luoghi</title>
+            </titleStmt>
+            <publicationStmt>
+                <p/>
+            </publicationStmt>
+            <sourceDesc>
+                <listPlace>
+                    <place xml:id="l_ignoto">
+                        <placeName>Luogo non identificato</placeName>
+                    </place>
+                    <place xml:id="sparta" sameAs="https://www.wikidata.org/wiki/Q5690">
+                        <placeName>Sparta</placeName>
+                    </place>
+                    <place xml:id="bacoli" sameAs="https://www.wikidata.org/wiki/Q71832">
+                        <placeName>Bacoli</placeName>
+                    </place>
+                    <!--place xml:id="peloro" sameAs="https://www.wikidata.org/wiki/Q2257429">
+                        <placeName>Capo Peloro</placeName>
+                    </place-->
+                    <place xml:id="ionio" sameAs="https://www.wikidata.org/wiki/Q37495">
+                        <placeName>Mare Ionio</placeName>
+                    </place>
+                    <place xml:id="ionia" sameAs="https://www.wikidata.org/wiki/Q620874">
+                        <placeName>Ionia</placeName>
+                    </place>
+                    <!--place xml:id="taormina" sameAs="https://pleiades.stoa.org/places/462506">
+                        <placeName>Taormina</placeName>
+                    </place-->
+                    <place xml:id="messina" sameAs="https://www.wikidata.org/wiki/Q4023782">
+                        <placeName>Messina</placeName>
+                    </place>
+                    <!--place xml:id="ponza" sameAs="https://pleiades.stoa.org/places/433041">
+                        <placeName>Ponza</placeName>
+                    </place-->
+                    <!--place xml:id="tripi" sameAs="https://pleiades.stoa.org/places/462062">
+                        <placeName>Tripi</placeName>
+                    </place-->
+                    <place xml:id="reatina">
+                        <placeName>Via Reatina</placeName>
+                    </place>
+                    <place xml:id="corinto" sameAs="https://www.wikidata.org/wiki/Q1363688">
+                        <placeName>Corinto</placeName>
+                    </place>
+                    <place xml:id="anzio" sameAs="https://www.wikidata.org/wiki/Q16010710">
+                        <placeName>Anzio</placeName>
+                    </place>
+                    <place xml:id="lazionuovo" sameAs="https://www.wikidata.org/wiki/Q3827510">
+                        <placeName>Lazio Nuovo</placeName>
+                    </place>
+                    <place xml:id="sabina" sameAs="https://www.wikidata.org/wiki/Q779478">
+                        <placeName>Sabina</placeName>
+                    </place>
+                    <place xml:id="tessaglia" sameAs="https://pleiades.stoa.org/places/1332">
+                        <placeName>Tessaglia</placeName>
+                    </place>
+                    <place xml:id="peneo" sameAs="https://pleiades.stoa.org/places/541022">
+                        <placeName>Fiume Peneo</placeName>
+                    </place>
+                    <place xml:id="velino" sameAs="https://www.wikidata.org/wiki/Q1235462">
+                        <placeName>Fiume Velino</placeName>
+                    </place>
+                    <place xml:id="gallia" sameAs="https://www.wikidata.org/wiki/Q38060">
+                        <placeName>Gallia</placeName>
+                    </place>
+                    <place xml:id="augst" sameAs="https://www.wikidata.org/wiki/Q610371">
+                        <placeName>Augst</placeName>
+                    </place>
+                    <place xml:id="galliabelgica" sameAs="https://www.wikidata.org/wiki/Q206443">
+                        <placeName>Gallia Belgica</placeName>
+                    </place>
+                    <place xml:id="brescello" sameAs="https://www.wikidata.org/wiki/Q3645134">
+                        <placeName>Brescello</placeName>
+                    </place>
+                    <place xml:id="crotone" sameAs="https://www.wikidata.org/wiki/Q13526919">
+                        <placeName>Crotone</placeName>
+                    </place>
+                    <place xml:id="smariafuori_rav" sameAs="https://www.wikidata.org/wiki/Q42790537">
+                        <placeName>Chiesa di Santa Maria in Porto Fuori</placeName>
+                    </place>
+                    <place xml:id="ssevero_cla" sameAs="https://www.wikidata.org/wiki/Q1775920">
+                        <placeName>Basilica di San Severo</placeName> 
+                    </place>
+                    <place xml:id="smariarotonda_rav" sameAs="https://www.wikidata.org/wiki/Q289427">
+                        <placeName>Chiesa di Santa Maria Rotonda</placeName>
+                    </place>
+                    <place xml:id="spagna" sameAs="https://pleiades.stoa.org/places/1027">
+                        <placeName>Spagna</placeName> <!--?-->
+                    </place>
+                    <place xml:id="betica" sameAs="https://www.wikidata.org/wiki/Q219415">
+                        <placeName>Betica</placeName>
+                    </place>
+                    <place xml:id="duomo_rav" sameAs="https://www.wikidata.org/wiki/Q2942769">
+                        <placeName>Duomo di Ravenna</placeName>
+                    </place>
+                    <place xml:id="sandrea_rav" sameAs="https://www.wikidata.org/wiki/Q600062">
+                        <placeName>Cappella di Sant'Andrea</placeName>
+                    </place>
+                    <place xml:id="aquileia" sameAs="https://www.wikidata.org/wiki/Q2859274">
+                        <placeName>Aquileia</placeName>
+                    </place>
+                    <place xml:id="foroaugusto" sameAs="https://www.wikidata.org/wiki/Q770797">
+                        <placeName>Foro Augusto</placeName>
+                    </place>
+                    <place xml:id="forotraiano" sameAs="https://www.wikidata.org/wiki/Q211295">
+                        <placeName>Foro Traiano</placeName>
+                    </place>
+                    <place xml:id="fororomano" sameAs="https://www.wikidata.org/wiki/Q180212">
+                        <placeName>Foro Romano</placeName>
+                    </place>
+                    <place xml:id="brenta" sameAs="https://pleiades.stoa.org/places/393450">
+                        <placeName>Fiume Brenta</placeName>
+                    </place>
+                    <place xml:id="tartaro" sameAs="https://pleiades.stoa.org/places/393502">
+                        <placeName>Fiume Tartaro</placeName>
+                    </place>
+                    <place xml:id="adige" sameAs="https://www.wikidata.org/wiki/Q13696">
+                        <placeName>Fiume Adige</placeName>
+                    </place>
+                    <place xml:id="fossaclaudia" sameAs="https://pleiades.stoa.org/places/397892">
+                        <placeName>Fossa Claudia</placeName>
+                    </place>
+                    <place xml:id="granbretagna" sameAs="https://www.wikidata.org/wiki/Q23666">
+                        <placeName>Gran Bretagna</placeName>
+                    </place>
+                    <place xml:id="sfrancesco_rav" sameAs="https://www.wikidata.org/wiki/Q959119">
+                        <placeName>Basilica di San Francesco</placeName>
+                    </place>
+                    <place xml:id="svitale_rav" sameAs="https://www.wikidata.org/wiki/Q721817">
+                        <placeName>Basilica di San Vitale</placeName>
+                    </place>
+                    <place xml:id="europa" sameAs="https://www.wikidata.org/wiki/Q5412023">
+                        <placeName>Europa</placeName>
+                    </place>
+                    <place xml:id="grecia" sameAs="https://www.wikidata.org/wiki/Q41">
+                        <placeName>Grecia</placeName>
+                    </place>
+                    <place xml:id="capomiseno" sameAs="https://www.wikidata.org/wiki/Q929659">
+                        <placeName>Capo Miseno</placeName>
+                    </place>
+                    <place xml:id="dalmazia" sameAs="https://www.wikidata.org/wiki/Q528042">
+                        <placeName>Dalmazia</placeName>
+                    </place>
+                    <place xml:id="pannonia" sameAs="https://www.wikidata.org/wiki/Q170062">
+                        <placeName>Pannonia</placeName>
+                    </place>
+                    <place xml:id="sapollinnarenuovo_rav" sameAs="https://www.wikidata.org/wiki/Q832278">
+                        <placeName>Basilica di Sant'Apollinare nuovo</placeName>
+                    </place>
+                    <place xml:id="sagnese_rav" sameAs="https://www.wikidata.org/wiki/Q30887625">
+                        <placeName>Basilica di Sant'Agnese</placeName>
+                    </place>
+                    <place xml:id="sagata_rav" sameAs="https://www.wikidata.org/wiki/Q3635731">
+                        <placeName>Basilica di Sant'Agata</placeName>
+                    </place>
+                    <place xml:id="lata" sameAs="https://www.wikidata.org/wiki/Q3066709">
+                        <placeName>Via Lata</placeName>
+                    </place>
+                    <place xml:id="milano" sameAs="https://www.wikidata.org/wiki/Q490">
+                        <placeName>Milano</placeName>
+                    </place>
+                    <place xml:id="ferrara" sameAs="https://www.wikidata.org/wiki/Q13362">
+                        <placeName>Ferrara</placeName>
+                    </place>
+                    <place xml:id="forlì" sameAs="https://www.wikidata.org/wiki/Q13367">
+                        <placeName>Forlì</placeName>
+                    </place>
+                    <place xml:id="montone" sameAS="https://www.wikidata.org/wiki/Q683596">
+                        <placeName>Fiume Montone</placeName>
+                    </place>
+                    <place xml:id="pavia" sameAs="https://www.wikidata.org/wiki/Q6259">
+                        <placeName>Pavia</placeName>
+                    </place>
+                    <place xml:id="classe" sameAs="https://www.wikidata.org/wiki/Q1398802">
+                        <placeName>Classe</placeName>
+                    </place>
+                    <place xml:id="comacchio" sameAs="https://www.wikidata.org/wiki/Q95097">
+                        <placeName>Comacchio</placeName>
+                    </place>
+                    <place xml:id="lucca" sameAs="https://www.wikidata.org/wiki/Q13373">
+                        <placeName>Lucca</placeName>
+                    </place>
+                    <place xml:id="clementino" sameAs="https://pleiades.stoa.org/places/413157">
+                        <placeName>Porto Clementino</placeName>
+                    </place>
+                    <place xml:id="tarquinia" sameAs="https://www.wikidata.org/wiki/Q179999">
+                        <placeName>Tarquinia</placeName>
+                    </place>
+                    <place xml:id="santasevera" sameAs="https://pleiades.stoa.org/places/433061">
+                        <placeName>Santa Severa</placeName>
+                    </place>
+                    <place xml:id="soratte" sameAs="https://www.wikidata.org/wiki/Q1334215">
+                        <placeName>Monte Soratte</placeName>
+                    </place>
+                    <place xml:id="senigallia" sameAs="https://www.wikidata.org/wiki/Q124925">
+                        <placeName>Senigallia</placeName>
+                    </place>
+                    <place xml:id="rimini" sameAs="https://www.wikidata.org/wiki/Q13369">
+                        <placeName>Rimini</placeName>
+                    </place>
+                    <place xml:id="sarsina" sameAs="https://www.wikidata.org/wiki/Q99956">
+                        <placeName>Sarsina</placeName>
+                    </place>
+                    <place xml:id="modena" sameAs="https://www.wikidata.org/wiki/Q279">
+                        <placeName>Modena</placeName>
+                    </place>
+                    <place xml:id="reggio" sameAs="https://www.wikidata.org/wiki/Q13360">
+                        <placeName>Reggio Emilia</placeName>
+                    </place>
+                    <place xml:id="bologna" sameAs="https://www.wikidata.org/wiki/Q1891">
+                        <placeName>Bologna</placeName>
+                    </place>
+                    <place xml:id="egitto" sameAs="">
+                        <placeName>Egitto</placeName>
+                    </place>
+                    <place xml:id="tirreno" sameAs="https://www.wikidata.org/wiki/Q38882">
+                        <placeName>Mare Tirreno</placeName>
+                    </place>
+                    <place xml:id="pisa" sameAs="https://www.wikidata.org/wiki/Q13375">
+                        <placeName>Pisa</placeName>
+                    </place>
+                    <place xml:id="arezzo" sameAs="https://www.wikidata.org/wiki/Q9160295">
+                        <placeName>Arezzo</placeName>
+                    </place>
+                    <place xml:id="siena" sameAs="https://www.wikidata.org/wiki/Q2751">
+                        <placeName>Siena</placeName>
+                    </place>
+                    <place xml:id="chiusi" sameAs="https://www.wikidata.org/wiki/Q843729">
+                        <placeName>Chiusi</placeName>
+                    </place>
+                    <place xml:id="cosa" sameAs="https://pleiades.stoa.org/places/413107">
+                        <placeName>Cosa</placeName>
+                    </place>
+                    <place xml:id="populonia" sameAs="https://www.wikidata.org/wiki/Q20108700">
+                        <placeName>Populonia</placeName>
+                    </place>
+                    <place xml:id="cerveteri" sameAs="https://pleiades.stoa.org/places/422859">
+                        <placeName>Cerveteri</placeName>
+                    </place>
+                    <place xml:id="veio" sameAs="https://pleiades.stoa.org/places/423116">
+                        <placeName>Veio</placeName>
+                    </place>
+                    <place xml:id="umbria" sameAs="https://pleiades.stoa.org/places/413360">
+                        <placeName>Umbria</placeName>
+                    </place>
+                    <place xml:id="tevere" sameAs="https://pleiades.stoa.org/places/423080">
+                        <placeName>Fiume Tevere</placeName>
+                    </place>
+                    <place xml:id="viti" sameAs="https://pleiades.stoa.org/places/393517">
+                        <placeName>Fiume Viti</placeName>
+                    </place>
+                    <place xml:id="lamone" sameAs="https://pleiades.stoa.org/places/393375">
+                        <placeName>Fiume Lamone</placeName>
+                    </place>
+                    <place xml:id="savio" sameAs="https://pleiades.stoa.org/places/393490">
+                        <placeName>Fiume Savio</placeName>
+                    </place>
+                    <place xml:id="spina" sameAs="https://pleiades.stoa.org/places/393498">
+                        <placeName>Spina</placeName>
+                    </place>
+                    <place xml:id="adria" sameAs="https://pleiades.stoa.org/places/393436">
+                        <placeName>Adria</placeName>
+                    </place>
+                    <place xml:id="livenza" sameAs="https://pleiades.stoa.org/places/393446">
+                        <placeName>Fiume Livenza</placeName>
+                    </place>
+                    <place xml:id="altino" sameAs="https://pleiades.stoa.org/places/393374">
+                        <placeName>Altino</placeName>
+                    </place>
+                    <place xml:id="padova">
+                        <placeName>Padova</placeName>
+                    </place>
+                    <place xml:id="troia" sameAs="https://pleiades.stoa.org/places/423107">
+                        <placeName>Troia</placeName>
+                    </place>
+                    <place xml:id="ancona">
+                        <placeName>Ancona</placeName>
+                    </place>
+                    <place xml:id="germania">
+                        <placeName>Germania</placeName>
+                    </place>
+                    <place xml:id="circoflaminio" sameAs="https://pleiades.stoa.org/places/158081395">
+                        <placeName>Circo Flaminio</placeName>
+                    </place>
+                    <place xml:id="campidoglio" sameAs="https://pleiades.stoa.org/places/422865">
+                        <placeName>Campidoglio</placeName>
+                    </place>
+                    <place xml:id="creta">
+                        <placeName>Creta</placeName>
+                    </place>
+                    <place xml:id="aquitania" sameAs="">
+                        <placeName>Aquitania</placeName>
+                    </place>
+                    <place xml:id="liburnia" sameAs="https://pleiades.stoa.org/places/197353">
+                        <placeName>Liburnia</placeName>
+                    </place>
+                    <place xml:id="galatia" sameAs="https://pleiades.stoa.org/places/619161">
+                        <placeName>Galatia</placeName>
+                    </place>
+                    <place xml:id="rasocolmo">
+                        <placeName>Capo Rasocolmo</placeName>
+                    </place>
+                    <place xml:id="sala" sameAs="https://pleiades.stoa.org/places/118946">
+                        <placeName>Fiume Sala</placeName>
+                    </place>
+                    <place xml:id="mauretania" sameAs="https://pleiades.stoa.org/places/1119">
+                        <placeName>Mauretania</placeName>
+                    </place>
+                    <place xml:id="africa">
+                        <placeName>Africa</placeName>
+                    </place>
+                    <place xml:id="siria" sameAs="www.trismegistos.org/place/2211">
+                        <placeName>Siria</placeName>
+                    </place>
+                    <place xml:id="rhapanea" sameAs="www.trismegistos.org/place/16601">
+                        <placeName>Rhapanea</placeName>
+                    </place>
+                    <place xml:id="rharion" sameAs="https://pleiades.stoa.org/places/585954">
+                        <placeName>Rharion</placeName>
+                    </place>
+                    <place xml:id="eleusi" sameAs="https://pleiades.stoa.org/places/579920">
+                        <placeName>Eleusi</placeName>
+                    </place>
+                    <place xml:id="raphta" sameAs="https://pleiades.stoa.org/places/39414">
+                        <placeName>Raphta</placeName>
+                    </place>
+                    <place xml:id="rufiji" sameAs="www.trismegistos.org/place/11225">
+                        <placeName>Fiume Rufiji</placeName>
+                    </place>
+                    <place xml:id="messina" sameAs="">
+                        <placeName>Messina</placeName>
+                    </place>
+                    <place xml:id="attica" sameAs="https://pleiades.stoa.org/places/579888">
+                        <placeName>Attica</placeName>
+                    </place>
+                    <place xml:id="ramnunte" sameAs="https://pleiades.stoa.org/places/580097">
+                        <placeName>Ramnunte</placeName>
+                    </place>
+                    <place xml:id="dacia" sameAs="https://pleiades.stoa.org/places/207065">
+                        <placeName>Dacia</placeName>
+                    </place>
+                    <place xml:id="rama" sameAs="https://pleiades.stoa.org/places/678356">
+                        <placeName>Rama</placeName>
+                    </place>
+                    <place xml:id="giudea" sameAs="https://pleiades.stoa.org/places/687934">
+                        <placeName>Giudea</placeName>
+                    </place>
+                    <place xml:id="antibes" sameAs="https://pleiades.stoa.org/places/157812">
+                        <placeName>Antibes</placeName>
+                    </place>
+                    <place xml:id="provenza" sameAs="">
+                        <placeName>Provenza</placeName>
+                    </place>
+                    <place xml:id="achaia" sameAs="https://pleiades.stoa.org/places/981502">
+                        <placeName>Achaia</placeName>
+                    </place>
+                    <place xml:id="panormo" sameAs="https://pleiades.stoa.org/places/570556">
+                        <placeName>Porto Panormo</placeName>
+                    </place>
+                    <place xml:id="epidaurum" sameAs="https://pleiades.stoa.org/places/197263">
+                        <placeName>Epidaurum</placeName>
+                    </place>
+                    <place xml:id="licia" sameAs="https://pleiades.stoa.org/places/638965">
+                        <placeName>Licia</placeName>
+                    </place>
+                    <place xml:id="rey" sameAs="https://pleiades.stoa.org/places/903104">
+                        <placeName>Rey</placeName>
+                    </place>
+                    <place xml:id="media" sameAs="https://pleiades.stoa.org/places/903080">
+                        <placeName>Media</placeName>
+                    </place>
+                    <place xml:id="lech">
+                        <placeName>Fiume Lech</placeName>
+                    </place>
+                    <place xml:id="venezia">
+                        <placeName>Venezia</placeName>
+                    </place>
+                    <place xml:id="verona">
+                        <placeName>Verona</placeName>
+                    </place>
+                    <place xml:id="Como">
+                        <placeName>Como</placeName>
+                    </place>
+                    <place xml:id="como" sameAs="https://pleiades.stoa.org/places/383689">
+                        <placeName>Lago di Como</placeName>
+                    </place>
+                    <place xml:id="inn" sameAs="https://pleiades.stoa.org/places/118547">
+                        <placeName>Fiume Inn</placeName>
+                    </place>
+                    <place xml:id="galliacis" sameAs="www.trismegistos.org/place/42757">
+                        <placeName>Gallia Cisalpina</placeName>
+                    </place>
+                    <place xml:id="reno">
+                        <placeName>Fiume Reno</placeName>
+                    </place>
+                    <place xml:id="danubio" sameAs="https://pleiades.stoa.org/places/226577">
+                        <placeName>Fiume Danubio</placeName>
+                    </place>
+                    <place xml:id="adula">
+                        <placeName>Monte Adula</placeName>
+                    </place>
+                    <place xml:id="atene">
+                        <placeName>Atene</placeName>
+                    </place>
+                    <place xml:id="liguria" sameAs="https://pleiades.stoa.org/places/383698">
+                        <placeName>Liguria</placeName>
+                    </place>
+                    <place xml:id="etruria" sameAs="https://pleiades.stoa.org/places/413122">
+                        <placeName>Etruria</placeName>
+                    </place>
+                    <place xml:id="rodano">
+                        <placeName>Fiume Rodano</placeName>
+                    </place>
+                    <place xml:id="graie" sameAs="https://pleiades.stoa.org/places/167637">
+                        <placeName>Alpi Graie</placeName>
+                    </place>
+                    <place xml:id="euganei">
+                        <placeName>Colli Euganei</placeName>
+                    </place>
+                    <place xml:id="alpi" sameAs="https://pleiades.stoa.org/places/783">
+                        <placeName>Alpi</placeName>
+                    </place>
+                    <place xml:id="toscana">
+                        <placeName>Toscana</placeName>
+                    </place>
+                    <place xml:id="carni" sameAs="https://pleiades.stoa.org/places/187338">
+                        <placeName>Carni</placeName>
+                    </place>
+                    <place xml:id="pola" sameAs="https://pleiades.stoa.org/places/197448">
+                        <placeName>Pola</placeName>
+                    </place>
+                    <place xml:id="viaappia" sameAs="https://pleiades.stoa.org/places/356966898">
+                        <placeName>via Appia</placeName>
+                    </place>
+                    <place xml:id="italia" sameAs="https://pleiades.stoa.org/places/1052">
+                        <placeName>Italia</placeName>
+                    </place>
+                    <place xml:id="gabi" sameAs="https://pleiades.stoa.org/places/422932">
+                        <placeName>Gabi</placeName>
+                    </place>
+                    <place xml:id="zagarolo">
+                        <placeName>Zagarolo</placeName>
+                    </place>
+                    <place xml:id="austria">
+                        <placeName>Austria</placeName>
+                    </place>
+                    <place xml:id="asia">
+                        <placeName>Asia</placeName>
+                    </place>
+                    <place xml:id="arabia" sameAs="https://pleiades.stoa.org/places/991408">
+                        <placeName>Arabia</placeName>
+                        <note>Intesa come provincia tardo romana, post diocleziana</note>
+                    </place>
+                    <place xml:id="babba" sameAs="https://www.wikidata.org/wiki/Q16849065">
+                        <placeName>Babba</placeName>
+                    </place>
+                    <place xml:id="amman" sameAs="www.trismegistos.org/place/2042">
+                        <placeName>Amman</placeName>
+                    </place>
+                    <place xml:id="rabba" sameAs="https://www.wikidata.org/wiki/Q847351">
+                        <placeName>Rabba</placeName>
+                    </place>
+                    <place xml:id="arrabo" sameAs="https://pleiades.stoa.org/places/197140">
+                        <placeName>Fiume Arrabo</placeName>
+                    </place>
+                    <place xml:id="eritreo" sameAs="https://pleiades.stoa.org/places/29713">
+                        <placeName>Mare Eritreo</placeName>
+                    </place>
+                    <place xml:id="arabiafelix" sameAs="https://pleiades.stoa.org/places/746710">
+                        <placeName>Araba Felix</placeName>
+                    </place>
+                    <place xml:id="nomentum" sameAs="https://pleiades.stoa.org/places/422986">
+                        <placeName>Nomentum</placeName>
+                    </place>
+                    <place xml:id="ravenna" sameAs="https://www.wikidata.org/wiki/Q13364">
+                        <placeName>Ravenna</placeName>
+                    </place>
+                    <place xml:id="rieti" sameAs="https://www.wikidata.org/wiki/Q13396">
+                        <placeName>Rieti</placeName>
+                    </place>
+                    <place xml:id="rezia" sameAs="https://pleiades.stoa.org/places/981547">
+                        <placeName>Rezia</placeName>
+                    </place>
+                    <place xml:id="roma" sameAs="http://imperium.ahlfeldt.se/places/1438">
+                        <placeName>Roma</placeName>
+                    </place>
+                    <place xml:id="sicilia" sameAs="https://pleiades.stoa.org/places/462492">
+                        <placeName>Sicilia</placeName>
+                    </place>
+                    <place xml:id="palestina" type="region" sameAs="https://pleiades.stoa.org/places/687995">
+                        <placeName>Palestina</placeName>
+                    </place>
+                    <place xml:id="po" sameAs="http://imperium.ahlfeldt.se/places/16565" type="river">
+                        <placeName>Po</placeName>
+                    </place>
+                    <place xml:id="deltapo" sameAs="https://pleiades.stoa.org/places/393470">
+                        <placeName>Delta del Po</placeName>
+                    </place>
+                    <place xml:id="adriatico" type="sea" sameAs="https://pleiades.stoa.org/places/1004">
+                        <placeName>Mare Adriatico</placeName>
+                    </place>
+                    <place xml:id="viaflaminia" sameAs="https://pleiades.stoa.org/places/856514595">
+                        <placeName>via Flaminia</placeName>
+                    </place>
+                    <place xml:id="nilo" sameAs="https://pleiades.stoa.org/places/727172">
+                        <placeName>Nilo</placeName>
+                    </place>
+                    <place xml:id="viaprenestina" sameAs="https://pleiades.stoa.org/places/622606468">
+                        <placeName>via Prenestina</placeName>
+                    </place>
+                    <place xml:id="trieste" sameAs="https://pleiades.stoa.org/places/187578">
+                        <placeName>Trieste</placeName>
+                    </place>
+                </listPlace>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p/>
+        </body>
+    </text>
+</TEI>
