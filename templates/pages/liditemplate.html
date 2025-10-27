@@ -16,7 +16,7 @@
     <script type="module" src="pb-components-bundle.js" data-template="pages:load-components"/>
     <style>
         body {
-            --pb-view-height: calc(100vh - 250px);
+            --pb-view-height: calc(100vh - 240px);
         }
 
         #view1 {
@@ -78,7 +78,7 @@
                     <!-- Overwrite toolbar to add metadata toggle -->
                     <app-toolbar data-template="lib:include" data-template-path="templates/toolbar.html">
                         
-                        <paper-button id="metaToggle" raised="raised" data-target="toolbar-before">
+                        <paper-button id="metaToggle" class="my-meta" raised="raised" data-target="toolbar-before">
                             <iron-icon icon="icons:info-outline"/>Metadata
                         </paper-button>
                     </app-toolbar>
@@ -87,7 +87,7 @@
                 <!-- Metadata -->
                 <pb-drawer toggle="metaToggle" class="tocDrawer" emit="toc" subscribe="transcription">
                     <div class="drawer-content">
-                        <h3>Metadata</h3>
+                        <h3>Metadati</h3>
                         <pb-view id="commentary" src="document1" xpath="//teiHeader" view="single" subscribe="toc">
                             <pb-param name="mode" value="commentary"/>
                         </pb-view>

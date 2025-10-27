@@ -41,6 +41,10 @@ declare %private function model:template-mei_mdiv($config as map(*), $node as no
 declare %private function model:template-encodingDesc2($config as map(*), $node as node()*, $params as map(*)) {
     <t xmlns=""><div><h4>Informazioni sul progetto</h4><div>{$config?apply-children($config, $node, $params?content)}</div></div></t>/*
 };
+(: generated template function for element spec: seg :)
+declare %private function model:template-seg($config as map(*), $node as node()*, $params as map(*)) {
+    <t xmlns=""><a href="{$config?apply-children($config, $node, $params?uri)}" target="_blank">{$config?apply-children($config, $node, $params?content)}</a></t>/*
+};
 (: generated template function for element spec: msDesc :)
 declare %private function model:template-msDesc($config as map(*), $node as node()*, $params as map(*)) {
     <t xmlns=""><p>
@@ -59,6 +63,10 @@ declare %private function model:template-seriesStmt($config as map(*), $node as 
 (: generated template function for element spec: availability :)
 declare %private function model:template-availability($config as map(*), $node as node()*, $params as map(*)) {
     <t xmlns=""><p>Licenza(documento XML):{$config?apply-children($config, $node, $params?content)}</p></t>/*
+};
+(: generated template function for element spec: term :)
+declare %private function model:template-term($config as map(*), $node as node()*, $params as map(*)) {
+    <t xmlns=""><li>{$config?apply-children($config, $node, $params?content)}</li></t>/*
 };
 (: generated template function for element spec: classDecl :)
 declare %private function model:template-classDecl($config as map(*), $node as node()*, $params as map(*)) {
@@ -129,7 +137,7 @@ declare function model:apply($config as map(*), $input as node()*) {
                             else
                                 html:metadata($config, ., ("tei-teiHeader5", css:map-rend-to-class(.)), .)
                     case element(figure) return
-                        epub:block($config, ., ("tei-figure", css:map-rend-to-class(.)), .)
+                        html:figure($config, ., ("tei-figure", css:map-rend-to-class(.)), ., @figDesc)
                     case element(supplied) return
                         if (parent::choice) then
                             html:inline($config, ., ("tei-supplied1", css:map-rend-to-class(.)), .)
@@ -502,7 +510,7 @@ declare function model:apply($config as map(*), $input as node()*) {
                             else
                                 html:inline($config, ., ("tei-encodingDesc3", css:map-rend-to-class(.)), .)
                     case element(quote) return
-                        epub:alternate($config, ., ("tei-quote1", css:map-rend-to-class(.)), ., ., id (substring-after(@source, '#'), doc("/db/apps/LiDi/data/bibl.xml")))
+                        epub:alternate($config, ., ("tei-quote", css:map-rend-to-class(.)), ., ., id (substring-after(@source, '#'), doc("/db/apps/LiDi/data/bibl.xml")))
                     case element(gap) return
                         if (desc) then
                             html:inline($config, ., ("tei-gap1", css:map-rend-to-class(.)), .)
@@ -512,10 +520,25 @@ declare function model:apply($config as map(*), $input as node()*) {
                             else
                                 html:inline($config, ., ("tei-gap3", css:map-rend-to-class(.)), .)
                     case element(seg) return
-                        if (@source) then
-                            html:link($config, ., ("tei-seg1", css:map-rend-to-class(.)), ., @source, "_blank", map {})
+                        if (@xml:lang and @source) then
+                            let $params := 
+                                map {
+                                    "uri": @source,
+                                    "content": .
+                                }
+
+                                                        let $content := 
+                                model:template-seg($config, ., $params)
+                            return
+                                                        html:figure(map:merge(($config, map:entry("template", true()))), ., ("tei-seg1", css:map-rend-to-class(.)), $content, ())
                         else
-                            html:inline($config, ., ("tei-seg2", css:map-rend-to-class(.)), .)
+                            if (@xml:lang) then
+                                html:figure($config, ., ("tei-seg2", css:map-rend-to-class(.)), ., ())
+                            else
+                                if (@source) then
+                                    html:link($config, ., ("tei-seg3", css:map-rend-to-class(.)), ., @source, "_blank", map {})
+                                else
+                                    html:inline($config, ., ("tei-seg4", css:map-rend-to-class(.)), .)
                     case element(notatedMusic) return
                         html:figure($config, ., ("tei-notatedMusic", css:map-rend-to-class(.)), (ptr, mei:mdiv), label)
                     case element(profileDesc) return
@@ -539,7 +562,7 @@ declare function model:apply($config as map(*), $input as node()*) {
                     case element(group) return
                         epub:block($config, ., ("tei-group", css:map-rend-to-class(.)), .)
                     case element(cb) return
-                        epub:break($config, ., ("tei-cb", css:map-rend-to-class(.)), ., 'column', @n)
+                        html:omit($config, ., ("tei-cb", css:map-rend-to-class(.)), .)
                     case element(persName) return
                         if (ancestor::listPerson) then
                             epub:block($config, ., ("tei-persName1", css:map-rend-to-class(.)), .)
@@ -659,7 +682,15 @@ declare function model:apply($config as map(*), $input as node()*) {
                     case element(figDesc) return
                         epub:alternate($config, ., ("tei-figDesc", css:map-rend-to-class(.)), ., "🖼️", .)
                     case element(term) return
-                        html:inline($config, ., ("tei-term", css:map-rend-to-class(.)), .)
+                        let $params := 
+                            map {
+                                "content": .
+                            }
+
+                                                let $content := 
+                            model:template-term($config, ., $params)
+                        return
+                                                html:inline(map:merge(($config, map:entry("template", true()))), ., ("tei-term", css:map-rend-to-class(.)), $content)
                     case element(classDecl) return
                         if ($parameters?mode='commentary') then
                             let $params := 

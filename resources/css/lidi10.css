@@ -1,19 +1,69 @@
 /* Stili personalizzati della app LiDi 1.0 */
 
+/* DIMENSIONE DEL TESTO NELLA TRASCRIZIONE */
 body {
     --pb-content-font-size: 15px;
 }
 
+/* Controlla il logo in alto a SX nella pagina */
 .logo {
     /*height: 10px;
     width: 10px;*/
-    background-image: url("../images/logo-limes.png");
+    /*background-image: url("../images/logo-limes.png");*/
     background-size: 150px 70px;
+    background-image: none;
+}
+/* Controlla il logo in alto a SX nella pagina */
+.logo > img {
+    margin: 0px 0 3px 0;
+    height: 65px;
+}
+/* Controlla la dimensione della barra grigia nella navigazione del documento */
+.toolbar {
+    height: 50px;
 }
 
+/* Pulsante "METADATA" */
+.my-meta {
+    height:40px;
+}
+
+/* Definisce l'immagine da mostrare durante il caricamento della pagina */
 .splash {
     background-image: url("../images/logo-limes.png");
 }
+
+/* Dimensione del font nella sezione di benvenuto in home page */
+#welcome-section {
+    font-size: 14pt;
+}
+
+/* Barra del menu in alto nella pagina */
+.menubar {
+    background-color: #be574b;
+    height: 70px;
+}
+
+/* ------------   FOOTER  --------------- */
+footer {
+    border-top: 1px solid #be574b;;
+    background-color: white;
+}
+
+.footer_logos {
+    text-align: center;
+    padding: 2px;
+}
+
+.footer_logos > a {
+    margin: 0px 2% 0px 2%;
+}
+
+.footer_logo {
+    height: 50px;
+    margin: 5px;
+}
+/* --------------  FINE FOOTER ------------ */
 
 #title-view1 {
     font-size: 18px;
@@ -23,38 +73,21 @@ body {
     overflow-y: scroll;
 }
 
-#welcome-section {
-    font-size: 14pt;
-}
-
-
-.menubar {
-    background-color: #be574b;
-}
-
-footer {
-    border-top: 1px solid #be574b;;
-    background-color: white;
-}
-
-.footer_logos {
-    text-align: center;
-    padding: 5px;
-}
-
-.footer_logos > a {
-    margin: 0px 5% 0px 5%;
-}
-
 /* Riduci la larghezza dei margini */
 .margin-right {
     margin-right:120px;
     padding: 10px;
 }
 
-.margin-note {
+@media(min-width: 769px){
+  .margin-note {
     margin-right:-120px;
     width:120px;
+  }
+}
+
+#content {
+    margin-top: -20px;
 }
 
 /*
@@ -62,11 +95,6 @@ footer {
     margin: -20px 0 -25px 0;
 }
 */
-
-#content {
-    margin-top: -20px;
-}
-
 
 /* PRESO DALLA HOME PAGE */
 

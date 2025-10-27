@@ -433,7 +433,7 @@
                         <placeName>Pola</placeName>
                     </place>
                     <place xml:id="viaappia" sameAs="https://pleiades.stoa.org/places/356966898">
-                        <placeName>via Appia</placeName>
+                         <placeName>Via Appia</placeName>
                     </place>
                     <place xml:id="italia" sameAs="https://pleiades.stoa.org/places/1052">
                         <placeName>Italia</placeName>

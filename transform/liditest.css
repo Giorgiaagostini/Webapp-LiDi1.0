@@ -91,7 +91,7 @@
 .tei-sic2:after { content: '}'; }
 .tei-fw1 { text-align: center; }
 .tei-fw2 { text-align: right; }
-.tei-quote1 { color: navy }
+.tei-quote { font-style: italic }
 .tei-gap1 { color: grey; }
 .tei-gap2:before { content: '[..'; }
 .tei-gap2:after { content: '..]'; }

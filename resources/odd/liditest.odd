@@ -60,7 +60,10 @@
             content:"📖"
             </outputRendition>
         </model></elementSpec>
-                <elementSpec ident="seg" mode="change"><model predicate="@source" behaviour="link">
+                <elementSpec ident="seg" mode="change"><model predicate="@xml:lang and @source" behaviour="figure">
+            <param name="uri" value="@source"/>
+            <pb:template xmlns="" xml:space="preserve"><a href="[[uri]]" target="_blank">[[content]]</a></pb:template>
+        </model><model predicate="@xml:lang" behaviour="figure"/><model predicate="@source" behaviour="link">
             <param name="uri" value="@source"/>
             <param name="content" value="."/>
             <param name="target" value="&#34;_blank&#34;"/>
@@ -147,10 +150,8 @@
             <param name="default" value="."/>
             <param name="alternate" value="id (substring-after(@source, '#'), doc(&#34;/db/apps/LiDi/data/bibl.xml&#34;))"/>
             <outputRendition xml:space="preserve">
-            color: navy
+            font-style: italic
             </outputRendition>
-        </model><model behaviour="cit">
-            <param name="source" value="id (substring-after(@source, '#'), doc(&#34;/db/apps/LiDi/data/bibl.xml&#34;))"/>
         </model></elementSpec>
                 <elementSpec ident="author" mode="change"><model predicate="$parameters?mode='commentary'" behaviour="block">
             <outputRendition xml:space="preserve" scope="before">
@@ -354,16 +355,20 @@
                 <elementSpec ident="availability" mode="add"><model predicate="$parameters?mode='commentary'" behaviour="block">
             <pb:template xmlns="" xml:space="preserve"><p>Licenza(documento XML):[[content]]</p></pb:template>
         </model></elementSpec>
-            <elementSpec ident="figure" mode="change"><model behaviour="block"/></elementSpec>
-                <elementSpec ident="cb" mode="change"><model behaviour="break">
+            <elementSpec ident="figure" mode="change"><model behaviour="figure">
+            <param name="title" value="@figDesc"/>
+        </model></elementSpec>
+                <elementSpec ident="cb" mode="change"><model behaviour="omit">
             <param name="type" value="'column'"/>
             <param name="label" value="@n"/>
         </model></elementSpec>
-                <elementSpec ident="figDesc" mode="change"><model output="web" behaviour="alternate">
+                <elementSpec ident="figDesc" mode="change"><model behaviour="alternate">
             <param name="default" value="&#34;🖼️&#34;"/>
             <param name="alternate" value="."/>
         </model></elementSpec>
-                <elementSpec ident="term" mode="add"><model behaviour="inline"/></elementSpec>
+                <elementSpec ident="term" mode="add"><model behaviour="inline">
+            <pb:template xmlns="" xml:space="preserve"><li>[[content]]</li></pb:template>
+        </model></elementSpec>
             <elementSpec ident="classDecl" mode="add"><model predicate="$parameters?mode='commentary'" behaviour="block">
             <pb:template xmlns="" xml:space="preserve"><div><h4>Sistema di classificazione delle immagini</h4><div>[[content]]</div></div></pb:template>
         </model></elementSpec>
@@ -377,6 +382,10 @@
             <param name="alternate" value="@when"/>
         </model><model behaviour="inline"/></elementSpec>
                 <elementSpec ident="msContents" mode="add"/>
-            </schemaSpec>
+            <elementSpec ident="hi" mode="change"><model behaviour="inline" useSourceRendition="true">
+            <outputRendition xml:space="preserve">
+            font-style: italic;
+            </outputRendition>
+        </model></elementSpec></schemaSpec>
         </body>
     </text></TEI>

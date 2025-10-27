@@ -59,7 +59,7 @@
              </msIdentifier>
              <msContents>
                 <ab>Nel volume 15 è contenuto il libro XVII con vocaboli che iniziano con la lettera R, in cui predomina la voce Roma, dalla c. 38 alla c. 193 v. La precede, tra le altre, Reate (cc.23 sgg.) e Ravenna.(Mercando 1994)</ab>
-             </msContents>
+                </msContents>
                <physDesc>
                         <ab>mm 406 x 274, su carta bianca, azzurra ed azzurro-grigia. 
                   Su alcune delle carte bianche filigrana con scudo, al cui interno è un'aquila sormontata da un crescente rivolto verso il basso, sul tutto una stella a sei punte (mm 100 x 45, riportata in Briquet).
@@ -3312,16 +3312,16 @@
                     <lb facs="#facs_2_r1l19" n="N013"/>medesimo stile l'havemo scritte et imitate, acciò che faccino lume et chiarore alle trasformationi et traportationi
                     <lb facs="#facs_2_r1l20" n="N014"/>di quelle voce che sono state traportate nelle lingua vulgare et in quella megliore suono che s'ha potuto
                     <lb facs="#facs_2_r1l21" n="N015"/>assimigliare, acciò che il significato loro vi sia conosciuto. Et doppo questo vi havemo poste le voci affatto alie<lb facs="#facs_2_r1l22" n="N016" break="no"/>ne et trasportate in ogni altro modo che recano oscurità, coperte dalla moderna tenebre et invenzione, ac<lb facs="#facs_2_r1l23" n="N017" break="no"/>
-                    <unclear>ciò</unclear> che l'antico col moderno concorrino in un tempo alla chiarezza loro, per ché la facella ardente del lume
+                    <unclear>ciò</unclear> che l'antico col moderno concorrino in un tempo alla chiarezza loro, perché la facella ardente del lume
                     <lb facs="#facs_2_r1l24" n="N018"/>della verità scuopri la mente et le cose oscurate et le tolga dall'oblivione et dal tristo, o rio, colpo della cieca
                     <lb facs="#facs_2_r1l25" n="N019"/>fortuna che ogni cosa cuopre con la ignoranza tirata dal tempo, ogni cosa muta et cuopre sotto gli anni et
                     <lb facs="#facs_2_r1l26" n="N020"/>sotto della morte, senza interrompimento di longezza, interrompendo le cose de mortali <unclear>che</unclear> tirano atterra tan<lb facs="#facs_2_line_1641227237122_1155" n="N021" break="no"/>to le maggiori, come quelle 
                     <lb facs="#facs_2_r1l27" n="N022"/>
                     <add>che sono</add>
-                    <lb facs="#facs_2_line_1641227237121_1154" n="N023"/>minori, parché vi gittano sopra un certo velo di oscura nebia et con essa sem<lb facs="#facs_2_r1l29" n="N024" break="no"/>pre variando van commutando i nomi et le forme. Come fanno quelli che corrompono quel che vuole l'arte
+                    <lb facs="#facs_2_line_1641227237121_1154" n="N023"/>minori, par che vi gittano sopra un certo velo di oscura nebia et con essa sem<lb facs="#facs_2_r1l29" n="N024" break="no"/>pre variando van commutando i nomi et le forme. Come fanno quelli che corrompono quel che vuole l'arte
                     <lb facs="#facs_2_r1l30" n="N025"/>et la realità della natura dele cose più rette et più limate che ne porta la buona ragione et le trasporta fuo<lb facs="#facs_2_r1l31" n="N026" break="no"/>ri del vago intelletto et nella rozzezza cagione le mette sepulte, o con dolce o con strano modo, molte volte ac<lb facs="#facs_2_r1l32" n="N027" break="no"/>commodandosi, le sciogleno et l'allontanano dalla propria analogia. Laonde noi accio ché non venghino affatto
-                    <lb facs="#facs_2_r1l33" n="N028"/>a farsi sepulte nelle tenebre havemo raccolte l'antiche et le moderne in questo breve volume aciò
-                    <lb facs="#facs_2_r1l34" n="N029"/>che insieme paragonandosi si conoscano, come fa nel parangone l'oro puro dall'altri metalli.
+                    <lb facs="#facs_2_r1l33" n="N028"/>a farsi sepulte nelle tenebre havemo raccolte l'antiche et le moderne in questo breve volume acio
+                    <lb facs="#facs_2_r1l34" n="N029"/>ché insieme paragonandosi si conoscano, come fa nel parangone l'oro puro dall'altri metalli.
             </ab>
          </div>
       
@@ -3397,9 +3397,8 @@
                     <placeName ref="#amman">RABBATH</placeName>,</head>
                 <ab facs="#facs_3_TextRegion_1692631172644_222">
                     <lb facs="#facs_3_line_1692631172732_225" n="N001"/>o <placeName ref="#amman">Rabbate</placeName>, è citta magnifica et celebre metropoli della <placeName ref="#siria">Syria</placeName> in <placeName ref="#asia">Asia</placeName> detta dalli figliuoli di Ammone, dal nome
-                    <lb facs="#facs_3_r1l16" n="N002"/>del primo genito, la quale ultimamente fu detta <placeName ref="#amman">Philadelphia</placeName> da Ptolemaeo Philadelpho et fu appellata pria <placeName ref="#amman">Metropolis</placeName>
-                    <lb facs="#facs_3_r1l17" n="N003"/>
-                    <placeName ref="#amman">filiorum Ammon</placeName> come dice <bibl source="#a_ignoto">
+                    <lb facs="#facs_3_r1l16" n="N002"/>del primo genito, la quale ultimamente fu detta <placeName ref="#amman">Philadelphia</placeName> da Ptolemaeo Philadelpho et fu appellata pria <placeName ref="#amman">Metropolis
+                    <lb facs="#facs_3_r1l17" n="N003"/>filiorum Ammon</placeName> come dice <bibl source="#a_ignoto">
                         <unclear>Bio</unclear>
                     </bibl> et <bibl source="#a_ignoto">Iosapho</bibl> et fu ornata di belli edificij di templi et di basilica regia.
             </ab>
@@ -3624,7 +3623,10 @@
                     <lb facs="#facs_7_line_1693151437973_177" n="N004"/>•SACRVM•</seg>
                     </ab>
                 </figure>
-                <figure>
+                <figure xml:id="fig02_17">
+                  <figDesc>
+                    <term corresp="#iconclass" ref="https://iconclass.org/49L8">inscription</term>
+                  </figDesc>
                     <ab facs="#facs_7_r3">
                     <lb facs="#facs_7_line_1697546014444_460" n="N001"/>
                         <seg subtype="inscription" type="object" source="https://database.census.de/#/detail/162216" xml:lang="la">RAESIANOR•FAMIL•D•D
@@ -3695,7 +3697,7 @@
                     <lb facs="#facs_9_r1l3" n="N003"/>l'oriente ha la <placeName>Vendelica</placeName> et la <placeName>Norica</placeName> <unclear>distinta</unclear> da esse dal fiume <placeName ref="#inn">Aeno</placeName> per per un lato la circunda, et la parte
                     <lb facs="#facs_9_r1l4" n="N004"/>raetica detta superiore ha li helvetij et parte della <placeName ref="#galliacis">Gallia Cisalpina</placeName> insino al lago <placeName ref="#como">Lario</placeName> comprende et le cui genti
                     <lb facs="#facs_9_r1l5" n="N005"/>hogidì <unclear>verso</unclear> questa parte sono chiamati griscioni o grisones et la parte inferiore verso il fiume <placeName>Lyco</placeName> insino al
-                    <lb facs="#facs_9_r1l6" n="N006"/>fiume <placeName ref="#inn">Aeno</placeName> sono altre nationi che con norici et raeti confinano chiamate boioarij et rhetij thusci, per cio ché come
+                    <lb facs="#facs_9_r1l6" n="N006"/>fiume <placeName ref="#inn">Aeno</placeName> sono altre nationi che con norici et raeti confinano chiamate boioarij et rhetij thusci, per ciò ché come
                     <lb facs="#facs_9_r1l7" n="N007"/>è sudetto credevano havere havuta dalli thusci la origine. Hanno i raeti nobilissimo vino et confinano dalla
                     <lb facs="#facs_9_r1l8" n="N008"/>parte di <placeName ref="#italia">Italia</placeName> con <placeName ref="#verona">Verona</placeName> et con <placeName ref="#como">Como</placeName> situate all'alpinee radici. Della qual <placeName ref="#rezia">Raetia</placeName> parla <bibl source="#verg">Virgilio</bibl> laudando il
                     <lb facs="#facs_9_r1l9" n="N009"/>vino col falerno,<bibl source="#verg_g_2">nel secondo dela Georgica</bibl> — <quote source="#verg_g_2_95_96">ET QVO TE CARMINE DICAM
@@ -4705,12 +4707,7 @@
                     <lb facs="#facs_27_line_1695290969468_4321" n="N001"/>DI <placeName ref="#ravenna">RAVENNA</placeName>
                 </fw>
             <ab facs="#facs_27_TextRegion_1693213436434_175">
-                    <lb facs="#facs_27_line_1639666765027_673" n="N001"/>Nel medesimo <placeName ref="#apollinare_nuovo">portico di S.
-                    <lb facs="#facs_27_line_1639666756308_666" n="N002"/>
-                        <hi style="vertical-align: superscript;">to</hi>
-                    </placeName>
-                    <lb facs="#facs_27_line_1639666765026_672" n="N003"/>
-                    <placeName ref="#apollinare_nuovo">Apolenara</placeName> si trova questa <seg subtype="inscription" type="object" source="https://database.census.de/#/detail/162244">inscrittione di Marco Cocceio</seg> Nepote della tribù pollia, tribuno della militia,
+                    <lb facs="#facs_27_line_1639666765027_673" n="N001"/>Nel medesimo <placeName ref="#apollinare_nuovo">portico di Santo Apolenara</placeName> si trova questa <seg subtype="inscription" type="object" source="https://database.census.de/#/detail/162244">inscrittione di Marco Cocceio</seg> Nepote della tribù pollia, tribuno della militia,
                     <lb facs="#facs_27_r3l4" n="N004"/>disegnato legato propretore nella provincia di <placeName ref="#sicilia">Sicilia</placeName>, questore et tribuno de soldati della
                     <lb facs="#facs_27_r3l7" n="N005"/>undecima legione claudia, seiemviro correttore, decemviro in giudicare lite pri<lb facs="#facs_27_r3l9" n="N006" break="no"/>mitivo intra gli sei huomini ch'erano gli exarchi et esso Cocceio lo priore di 
                     <lb facs="#facs_27_r3l11" n="N007"/>essi sei ufficiali. <unclear>Oltre</unclear> a questa ne è un'altra inscritione simile, <unclear>rovinata</unclear>.
@@ -4883,7 +4880,12 @@
                     <lb facs="#facs_28_r2l29" n="N028"/>di<unclear>Solone</unclear>, di Socrate et di Platone et come meglio ci ha mostrato nella passione del nostro Redempto<lb facs="#facs_28_r2l30" n="N029" break="no"/>re, i suoi santi theologi nelli santi theoremmati. Ordunque questo si vede in quattro faccie d'una base
                     <lb facs="#facs_28_r2l31" n="N030"/>requadrata.
             </ab>
-                <figure>
+                <figure xml:id="fig03_17">
+                 <figDesc>
+                    <term corresp="#iconclass" ref="https://iconclass.org/49L8">inscription</term>
+                    <term corresp="#iconclass" ref="https://iconclass.org/34B113">watch-dog, dog watching</term>
+                    <term corresp="#iconclass" ref="https://iconclass.org/25F26(RABBIT)">rodents:rabbit</term>
+                  </figDesc>
                     <ab facs="#facs_28_TextRegion_1695291175646_4381">
                     <lb facs="#facs_28_r3l1" n="N001"/>
                         <seg subtype="inscription" type="object" source="https://database.census.de/#/detail/224622" xml:lang="la">
@@ -4917,7 +4919,13 @@
                 <fw type="running-head" place="top" facs="#facs_29_TextRegion_1643802755813_1062">
                     <lb facs="#facs_29_r2l1" n="N001"/>DI <placeName ref="#ravenna">RAVENNA</placeName>, DELLA <seg subtype="monument" type="object" source="https://database.census.de/#/detail/154850">PORTA DETTA AUREA</seg>
                 </fw>
-                <figure>
+                <figure xml:id="fig04_17">
+                  <figDesc>
+                    <term corresp="#iconclass" ref="https://iconclass.org/48C1">architecture</term>
+                    <term corresp="#iconclass" ref="https://iconclass.org/48C1423">plan ~ architecture</term>
+                    <term corresp="#iconclass" ref="https://iconclass.org/43A422">triumphal arch</term>
+                    <term corresp="#iconclass" ref="https://iconclass.org/41A323">monumental door, porch, 'aediculum'</term>
+                  </figDesc>
                        <ab facs="#facs_29_TextRegion_1695291354719_4464">
                     <lb facs="#facs_29_line_1639756079847_633" n="N001"/>
                         <seg subtype="inscription" type="object" source="https://database.census.de/#/detail/154850" xml:lang="la">TI•CLAVDIVS•DRVSI•F•CAES•AVG•GERMANICVS•PONT•MAX•TRIB•POT•II•COS•II•
@@ -4953,13 +4961,19 @@
                     <lb facs="#facs_29_r2l24" n="N004"/>ritorno della vittoria di brittanni et de germani, da ravennati coloni del populo romano et delli privilegi
                     <lb facs="#facs_29_r2l25" n="N005"/>romani favoriti. La cui porta è doppia, l'una per chi entrava e l'altra per quei che uscivano, come erano la
                     <lb facs="#facs_29_r2l26" n="N006"/>più parte delle antiche porte delle romane colonie, onde si dicono portae, nel numero del più, come erano edi<lb facs="#facs_29_r2l27" n="N007" break="no"/>ficate già in <placeName ref="#troia">Troia</placeName>, horigine et fonte et patria de romani era la porta <unclear>detta</unclear> scaeas o ΣΚΑΙΑΣ ΠΥΛΑΣ, co<lb facs="#facs_29_r2l28" n="N008" break="no"/>me la dice <bibl source="#hom">Homero</bibl> infra gli altri scrittori. Così i romani nelle città da essi edificate alla antica imitatione fe<lb facs="#facs_29_r2l29" n="N009" break="no"/>cero fabricare tutte quelle delle sue colonie come si <unclear>vedeno</unclear> in <placeName ref="#roma">Roma</placeName> <seg subtype="monument" type="object" source="https://database.census.de/#/detail/152623">la porta detta Maggiore Esquilina
-                    <lb facs="#facs_29_r2l30" n="N010"/>Praenestina</seg> et<seg subtype="monument" type="object" source="https://database.census.de/#/detail/152627">la porta Portuense Transtiberina</seg>, che sono delle antiche porte tutte a due a due ordinate.
+                    <lb facs="#facs_29_r2l30" n="N010"/>Praenestina</seg> et<seg subtype="monument" type="object" source="https://database.census.de/#/detail/152627"> la porta Portuense Transtiberina</seg>, che sono delle antiche porte tutte a due a due ordinate.
             </ab>
             <pb facs="#facs_30" n="30" xml:id="img_0030"/>
             <fw type="page-number" facs="#facs_30_TextRegion_1643802778197_1070" place="top">
                     <lb facs="#facs_30_line_1639758572113_898" n="N001"/>18
                     <lb facs="#facs_30_line_1639758576876_903" n="N002"/>15</fw>
-                <figure>
+                <figure xml:id="fig05_18">
+                <figDesc>
+                  <term corresp="#iconclass" ref="https://iconclass.org/48C1">architecture</term>
+                  <term corresp="#iconclass" ref="https://iconclass.org/48C1423">plan ~ architecture</term>
+                  <term corresp="#iconclass" ref="https://iconclass.org/43A422">triumphal arch</term>
+                  <term corresp="#iconclass" ref="https://iconclass.org/41A323">monumental door, porch, 'aediculum'</term>
+                  </figDesc>
                        <ab facs="#facs_30_TextRegion_1695291470249_4548">
                     <lb facs="#facs_30_line_1652883063693_211" n="N001"/>
                         <unclear>c</unclear>
@@ -4994,14 +5008,34 @@
                     <lb facs="#facs_31_r1l15" n="N011"/>in <placeName ref="#ravenna">Ravenna</placeName> per la bella simetria
                     <lb facs="#facs_31_r1l16" n="N012"/>et inventione.
             </ab>
-                <figure>
+                <figure xml:id="fig06_17">
+                  <figDesc>
+                    <term corresp="#iconclass" ref="https://iconclass.org/48C1423">plan ~ architecture</term>
+                    <term corresp="#iconclass" ref="https://iconclass.org/48C168(...)">other architectural details (ENTABLATURE)</term>
+                    <term corresp="#iconclass" ref="https://iconclass.org/48A9857(...)">ornaments derived from objects (EGG-AND-DART)</term>
+                    <term corresp="#iconclass" ref="https://iconclass.org/48A987">frequently used ornamental compositions</term>
+                  </figDesc>
                     <ab facs="#facs_31_TextRegion_1663340337070_96">
                <lb facs="#facs_31_r1l27" n="N001"/>
                         <seg subtype="inscription" type="object" source="https://database.census.de/#/detail/154851" xml:lang="la">TI•CLAV</seg>
                     </ab>
                 </figure>
-                <figure facs="#facs_31_TextRegion_1681984905727_2170"/>
-                <figure>
+                <figure xml:id="fig07_17" facs="#facs_31_TextRegion_1681984905727_2170">
+                <figDesc>
+                    <term corresp="#iconclass" ref="https://iconclass.org/48C1423">plan ~ architecture</term>
+                    <term corresp="#iconclass" ref="https://iconclass.org/48C1612">capital (~ column, pillar)</term>
+                    <term corresp="#iconclass" ref="https://iconclass.org/48C1634">Corinthian order ~ architecture</term>
+                    <term corresp="#iconclass" ref="https://iconclass.org/48A983111">acanthus ~ ornament</term>
+                </figDesc>
+                </figure>
+                <figure xml:id="fig08_17">
+                  <figDesc>
+                    <term corresp="#iconclass" ref="https://iconclass.org/48C1423">plan ~ architecture</term>
+                    <term corresp="#iconclass" ref="https://iconclass.org/48C162">arch, archivolt ~ architecture</term>
+                    <term corresp="#iconclass" ref="https://iconclass.org/48C161">column, pillar ~ architecture</term>
+                    <term corresp="#iconclass" ref="https://iconclass.org/48A983111">acanthus ~ ornament</term>
+                    <term corresp="#iconclass" ref="https://iconclass.org/48C1634">Corinthian order ~ architecture</term>
+                  </figDesc>
                     <ab facs="#facs_31_TextRegion_1695291645044_4587">
                     <lb facs="#facs_31_r1l36" n="N001"/>Parte di dentro della grossezza
                     <lb facs="#facs_31_r1l38" n="N002"/>del coperto dell'<seg subtype="monument" type="object" source="https://database.census.de/#/detail/154852">arco</seg>.
@@ -5015,7 +5049,10 @@
                     <lb facs="#facs_31_r1l34" n="N010"/>P•X̄Ī
                     <lb facs="#facs_31_r1l39" n="N011"/>•B•</ab>
                 </figure>
-                <figure>
+                <figure xml:id="fig09_17">
+                <figDesc>
+                    <term corresp="#iconclass" ref="https://iconclass.org/48C1424">section ~ architectural design or model</term>
+                </figDesc>
                     <ab facs="#facs_31_TextRegion_1695291735649_4599">
                     <lb facs="#facs_31_r1l43" n="N001"/>Parte della pianta della <seg subtype="monument" type="object" source="https://database.census.de/#/detail/154850">porta Aurea</seg>
                     <lb facs="#facs_31_r1l44" n="N002"/>nella parte di dentro.
@@ -5035,7 +5072,7 @@
                 <fw type="running-head" place="top" facs="#facs_32_region_1695291845970_4641">
                     <lb facs="#facs_32_line_1695291849446_4644" n="N001"/>DI <placeName ref="#ravenna">RAVENNA</placeName>
                 </fw>
-         <div type="sub-entry" xml:id="r32_1">
+           <div type="sub-entry" xml:id="r32_1">
            <head facs="#facs_32_TextRegion_1693219334014_683">
                     <lb facs="#facs_32_line_1693219334162_685" n="N001"/>
                     <placeName ref="#classe">RAVENNATIO</placeName>, </head>
@@ -5086,7 +5123,7 @@
                     <lb facs="#facs_32_r1l46" n="N019"/>notturna scorta</seg> che dava segno col fuoco di notte ai naviganti<unclear>et</unclear> hora è puro fatto diserto et insicuro litto.
                      </ab>
                 </div>
-                <div>
+                <div type="entry">
                      <ab>
                     <lb facs="#facs_32_r1l47" n="N020"/>Et <placeName ref="#ravenna">Ravenna</placeName> dunque è stata famosa sotto quattro nomi: in <placeName ref="#ravenna">Berytio</placeName>, in <placeName ref="#ravenna">Ruenna</placeName> et <placeName ref="#ravenna">Ravenna</placeName> et <placeName ref="#ravenna">Navenna</placeName> et 
                     <lb facs="#facs_32_r1l48" n="N021"/>per la classe ravennatia romana. Fu <placeName ref="#ravenna">Ravenna</placeName> mancando l'imperio governata dall'exarchato di sei huomini,
@@ -5231,7 +5268,10 @@
                     <lb facs="#facs_34_r1l25" n="N026"/>ravennatia nelle concessioni fatte da Nerva Traiano a quelli che hanno militato et per beni meriti fatti
                     <lb facs="#facs_34_r1l26" n="N027"/>degni dal suo principe, essere messi infra quelli che si potevano senza obligo tranquillare et vivere liberamente.
             </ab>
-                <figure>
+                <figure xml:id="fig10_17">
+                <figDesc>
+                    <term corresp="#iconclass" ref="https://iconclass.org/49L8">inscription</term>
+                  </figDesc>
                     <ab facs="#facs_34_TextRegion_1640010136386_1791">
                     <lb facs="#facs_34_r1l27" n="N001"/>
                         <seg subtype="inscription" type="object" source="https://database.census.de/#/detail/225159" xml:lang="la">EX•AVCTORITATE•IMP•DIVI•NERVAE
@@ -5271,7 +5311,10 @@
                         </seg>
                     </ab>
                 </figure>
-                <figure>
+                <figure xml:id="fig11_17">
+                <figDesc>
+                <term corresp="#iconclass" ref="https://iconclass.org/49L8">inscription</term>
+                  </figDesc>
                     <ab facs="#facs_34_TextRegion_1640010136386_1790">
                     <lb facs="#facs_34_r1l28" n="N001"/>
                         <seg subtype="inscription" type="object" source="https://database.census.de/#/detail/225155" xml:lang="la">IMP•CAES•DIVI•TRAIANI•PARTHICI•F•DIVI•NE
@@ -5462,7 +5505,13 @@
                     <lb facs="#facs_36_r1l28" n="N002"/>intitulato Santa Resureizione</placeName>,
                     <lb facs="#facs_36_r1l29" n="N003"/>in tabola di marmo.
             </ab>
-                <figure>
+                <figure xml:id="fig12_17">
+                <figDesc>
+                    <term corresp="#iconclass" ref="https://iconclass.org/49L8">inscription</term>
+                    <term corresp="#iconclass" ref="https://iconclass.org/25G3(LAUREL)">trees:laurel</term>
+                    <term corresp="#iconclass" ref="https://iconclass.org/25G4111">garland, wreath</term>
+                    <term corresp="#iconclass" ref="https://iconclass.org/49L12(...)">Roman script; scripts based on the Roman alphabet (D.M.)</term>
+                  </figDesc>
                     <ab facs="#facs_36_TextRegion_1694799739237_1638">
                     <lb facs="#facs_36_r1l32" n="N001"/>
                         <seg subtype="inscription" type="object" source="https://database.census.de/#/detail/224369" xml:lang="la">D
@@ -5510,7 +5559,10 @@
                     <lb facs="#facs_36_r2l4" n="N002"/>cantone d'una
                     <lb facs="#facs_36_r2l6" n="N003"/>casa in publico.
             </ab>
-                <figure>
+                <figure xml:id="fig13_17">
+                <figDesc>
+                    <term corresp="#iconclass" ref="https://iconclass.org/49L8">inscription</term>
+                  </figDesc>
                     <ab facs="#facs_36_TextRegion_1694796541543_1619">
                     <lb facs="#facs_36_r2l5" n="N001"/>
                         <seg subtype="inscription" type="object" source="https://database.census.de/#/detail/224376" xml:lang="la">M•APPVLEIO
@@ -5576,7 +5628,13 @@
                     <lb facs="#facs_36_r2l75" n="N024"/>MIL•COH•T•PR..
                     <lb facs="#facs_36_r2l76" n="N025"/>.................</seg>
                 </ab>
-                <figure>
+                <figure xml:id="fig14_17">
+                <figDesc>
+                    <term corresp="#iconclass" ref="https://iconclass.org/49L8">inscription</term>
+                    <term corresp="#iconclass" ref="https://iconclass.org/49L12(...)">Roman script; scripts based on the Roman alphabet (D.M.)</term>
+                    <term corresp="#iconclass" ref="https://iconclass.org/48A98211">mask, mascaron ~ ornament</term>
+                    <term corresp="#iconclass" ref="https://iconclass.org/92I71181">Gorgoneion, head of Medusa</term>
+                  </figDesc>
                     <ab facs="#facs_36_TextRegion_1693220548787_807">
                     <lb facs="#facs_36_line_1640183336855_672" n="N001"/>
                         <seg subtype="inscription" type="object" source="https://database.census.de/#/detail/151208" xml:lang="la">D
@@ -5593,7 +5651,14 @@
                     <lb facs="#facs_36_r2l62" n="N012"/>POSVIT•B•M</seg>
                     </ab>
                 </figure>
-                <figure>
+                <figure xml:id="fig15_17">
+                <figDesc>
+                    <term corresp="#iconclass" ref="https://iconclass.org/49L8">inscription</term>
+                    <term corresp="#iconclass" ref="https://iconclass.org/49L12(...)">Roman script; scripts based on the Roman alphabet (D.M.)</term>
+                    <term corresp="#iconclass" ref="https://iconclass.org/48A98211">mask, mascaron ~ ornament</term>
+                    <term corresp="#iconclass" ref="https://iconclass.org/92I71181">Gorgoneion, head of Medusa</term>
+                    <term corresp="#iconclass" ref="https://iconclass.org/48A9844">dolphin ~ ornament</term>
+                  </figDesc>
                     <ab facs="#facs_36_TextRegion_1693220548787_806">
                     <lb facs="#facs_36_r2l32" n="N001"/>
                         <seg subtype="inscription" type="object" source="https://database.census.de/#/detail/153165" xml:lang="la">D
@@ -5644,7 +5709,16 @@
                     <lb facs="#facs_37_r1l52" n="N033"/>nave maritima per non perdere la nave che governa <unclear>l'honore</unclear> et l'utile della vita, piena di molta nausea a chi
                     <lb facs="#facs_37_line_1693220882617_872" n="N034"/>non sa et ha pratticato il mare, che sempre si muove et ggita a guisa degli animi inconstati de mortali.
             </ab>
-                <figure>
+                <figure xml:id="fig16_17">
+                <figDesc>
+                    <term corresp="#iconclass" ref="https://iconclass.org/49L8">inscription</term>
+                    <term corresp="#iconclass" ref="https://iconclass.org/92I71181">Gorgoneion, head of Medusa</term>
+                    <term corresp="#iconclass" ref="https://iconclass.org/48A9844">dolphin ~ ornament</term>
+                    <term corresp="#iconclass" ref="https://iconclass.org/49L12(...)">Roman script; scripts based on the Roman alphabet (D.M.)</term>
+                    <term corresp="#iconclass" ref="https://iconclass.org/45D312">officer</term>
+                    <term corresp="#iconclass" ref="https://iconclass.org/49M32">book</term>
+                    <term corresp="#iconclass" ref="https://iconclass.org/41D263">walking-stick, staff, cane</term>
+                  </figDesc>
                     <ab facs="#facs_37_TextRegion_1694795649871_1556">
                     <lb facs="#facs_37_r1l16" n="N001"/>
                         <seg subtype="inscription" type="object" source="https://database.census.de/#/detail/153166" xml:lang="la">D
@@ -5673,7 +5747,13 @@
                     <lb facs="#facs_37_r1l79" n="N014"/>stratoris et ĪĪĪ•MERC•tertia mercato<lb facs="#facs_37_r1l83" n="N015" break="no"/>ris, della natione pannona o pure dice
                     <lb facs="#facs_37_r1l87" n="N016"/>tertia mercenaria natione et tertia mi<lb facs="#facs_37_r1l89" n="N017" break="no"/>nervia.
             </ab>
-                <figure>
+                <figure xml:id="fig17_17">
+                <figDesc>
+                    <term corresp="#iconclass" ref="https://iconclass.org/49L8">inscription</term>
+                    <term corresp="#iconclass" ref="https://iconclass.org/49L12(...)">Roman script; scripts based on the Roman alphabet (D.M.)</term>
+                    <term corresp="#iconclass" ref="https://iconclass.org/92I71181">Gorgoneion, head of Medusa</term>
+                    <term corresp="#iconclass" ref="https://iconclass.org/25F23(LION)">beasts of prey, predatory animals: lion</term>
+                </figDesc>
                     <ab facs="#facs_37_TextRegion_1693220900622_880">
                     <lb facs="#facs_37_r1l66" n="N001"/>
                         <seg subtype="inscription" type="object" source="https://database.census.de/#/detail/157838" xml:lang="la">D•M
@@ -5685,7 +5765,14 @@
                     <lb facs="#facs_37_r1l88" n="N007"/>A•DASIMIVS•SEVERVS</seg>
                     </ab>
                 </figure>
-                <figure>
+                <figure xml:id="fig18_17">
+                <figDesc>
+                    <term corresp="#iconclass" ref="https://iconclass.org/49L8">inscription</term>
+                    <term corresp="#iconclass" ref="https://iconclass.org/49L12(...)">Roman script; scripts based on the Roman alphabet (D.M.)</term>
+                    <term corresp="#iconclass" ref="https://iconclass.org/92I71181">Gorgoneion, head of Medusa</term>
+                    <term corresp="#iconclass" ref="https://iconclass.org/25F23(LION)">beasts of prey, predatory animals: lion</term>
+                    <term corresp="#iconclass" ref="https://iconclass.org/47I2131">ram</term>
+                </figDesc>
                     <ab facs="#facs_37_TextRegion_1693220900621_879">
                     <lb facs="#facs_37_r1l65" n="N001"/>
                         <seg subtype="inscription" type="object" source="https://database.census.de/#/detail/160673" xml:lang="la">D•M
@@ -5752,7 +5839,11 @@
                     <lb facs="#facs_38_r1l69" n="N049"/>Cu'io fama l'acquisto; et'l pensier mio,
                     <lb facs="#facs_38_r1l70" n="N050"/>ch'e sol di lei, si ch'altra non v'hà parte.</quote>
                 </ab>
-                <figure>
+                <figure xml:id="fig19_17">
+                <figDesc>
+                  <term corresp="#iconclass" ref="https://iconclass.org/49L8">inscription</term>
+                  <term corresp="#iconclass" ref="https://iconclass.org/92D1916">cupids: 'amores', 'amoretti', 'putti'</term>
+                </figDesc>
                     <ab facs="#facs_38_TextRegion_1640191155973_1155">
                     <lb facs="#facs_38_r1l43" n="N001"/>
                         <seg subtype="inscription" type="object" source="https://database.census.de/#/detail/224385" xml:lang="grc">
@@ -5803,7 +5894,13 @@
                     <lb facs="#facs_39_r1l28" n="N026"/>sepultura et così si deplora nella inscrittione della mestissima morte, così ancho in un tempo funerati nel mesto tumulo
                     <lb facs="#facs_39_line_1695051036831_2374" n="N027"/>sendo chiamati l'uno Lupo et l'altro Apro.
             </ab>
-                <figure>
+                <figure xml:id="fig20_17">
+                <figDesc>
+                    <term corresp="#iconclass" ref="https://iconclass.org/49L8">inscription</term>
+                    <term corresp="#iconclass" ref="https://iconclass.org/92I71181">Gorgoneion, head of Medusa</term>
+                    <term corresp="#iconclass" ref="https://iconclass.org/48A9844">dolphin ~ ornament</term>
+                    <term corresp="#iconclass" ref="https://iconclass.org/42G2221">brothers (second degree family relationships)</term>
+                </figDesc>
                     <ab facs="#facs_39_TextRegion_1640191360080_1198">
                     <lb facs="#facs_39_r1l47" n="N001"/>
                         <seg subtype="inscripiton" type="object" source="https://database.census.de/#/detail/162028" xml:lang="la">DVO•IVVAN•LVPI•ET•APRI
@@ -5905,7 +6002,14 @@
                     <lb facs="#facs_40_line_1640191462159_1234" n="N015"/>simile fameglia in molte altre colonie dedutte in diverse parti
                     <lb facs="#facs_40_line_1641812124616_759" n="N016"/>dagli imperatori.
             </ab>
-                <figure>
+                <figure xml:id="fig21_17">
+                <figDesc>
+                    <term corresp="#iconclass" ref="https://iconclass.org/49L8">inscription</term>
+                    <term corresp="#iconclass" ref="https://iconclass.org/92I71181">Gorgoneion, head of Medusa</term>
+                    <term corresp="#iconclass" ref="https://iconclass.org/25F23(LION)">beasts of prey, predatory animals: lion</term>
+                    <term corresp="#iconclass" ref="https://iconclass.org/48C161">column, pillar ~ architecture</term>
+                    <term corresp="#iconclass" ref="https://iconclass.org/48C1634">Corinthian order ~ architecture</term>
+                </figDesc>
                     <ab facs="#facs_40_TextRegion_1640191462077_1230">
                     <lb facs="#facs_40_line_1640191559261_1312" n="N001"/>
                         <seg subtype="inscription" type="object" source="https://database.census.de/#/detail/162029" xml:lang="la">VIVVS•FECIT•SIBI•ET•SVIS
@@ -5970,7 +6074,16 @@
                     <lb facs="#facs_41_r2l43" n="N009"/>
                     <unclear>et</unclear> cassula che per sorte pote essere segno et misura delle cose mercatorie.
             </ab>
-                <figure>
+                <figure xml:id="fig22_17">
+                <figDesc>
+                    <term corresp="#iconclass" ref="https://iconclass.org/49L8">inscription</term>
+                    <term corresp="#iconclass" ref="https://iconclass.org/92I71181">Gorgoneion, head of Medusa</term>
+                    <term corresp="#iconclass" ref="https://iconclass.org/48A9844">dolphin ~ ornament</term>
+                    <term corresp="#iconclass" ref="https://iconclass.org/49L12(...)">Roman script; scripts based on the Roman alphabet (D.M.)</term>
+                    <term corresp="#iconclass" ref="https://iconclass.org/45D312">officer</term>
+                    <term corresp="#iconclass" ref="https://iconclass.org/41D263">walking-stick, staff, cane</term>
+                    <term corresp="#iconclass" ref="https://iconclass.org/41B33">lantern</term>
+                </figDesc>
                     <ab facs="#facs_41_TextRegion_1640191683578_1372">
                     <lb facs="#facs_41_line_1690451287964_1035" n="N001"/>
                         <seg subtype="inscription" type="object" source="https://database.census.de/#/detail/162030" xml:lang="la">D
@@ -6135,14 +6248,24 @@
                 <ab facs="#facs_43_r4">
                     <lb facs="#facs_43_r4l1" n="N001"/>Si vegono nella <placeName>chiesa di Santa Maria in Classe</placeName> alcune <seg subtype="sculpture" type="object" source="https://database.census.de/#/detail/225448">spire di colonna che hora dicemo base che furono di leggiadra et
                     <lb facs="#facs_43_r4l2" n="N002"/>ottima architettura bene sculpite et bene intese dell'ordine corinthio, che secondo mostrano le pontute navi et gli delphini
-                    <lb facs="#facs_43_r4l3" n="N003"/>scolpiti nelli plinthi di esse spire</seg>, sono state dell'antico<seg subtype="monument" type="object">tempio di <rs type="all_god">Neptuno</rs>
+                    <lb facs="#facs_43_r4l3" n="N003"/>scolpiti nelli plinthi di esse spire</seg>, sono state dell'antico<seg subtype="monument" type="object"> tempio di <rs type="all_god">Neptuno</rs>
                     </seg> et da alcuni d'essi lati del zocco sono non solo
                     <lb facs="#facs_43_r4l4" n="N004"/>simili navi o galee, ma vi sono trophei o armature et in altri lati vi sono festoni che tutti sono simboli dell'antiche
                     <lb facs="#facs_43_r4l5" n="N005"/>vittorie delle classe o armata romana che quivi havea la stattione della napagia, l'arsenale, l'armamentario et por<lb facs="#facs_43_r4l6" n="N006" break="no"/>to ornatissimo, secondo significano l'intagli di gran spesa delle preciose et nobili spire in cui non manco diligenza alcuna di
                     <lb facs="#facs_43_r4l7" n="N007"/>gentilezza d'opera.
             </ab>
-            <figure/>
-            <figure/>
+            <figure xml:id="fig23_17">
+                <figDesc>
+                    <term corresp="#iconclass" ref="https://iconclass.org/48C1613">base (~ column, pillar)</term>
+                    <term corresp="#iconclass" ref="https://iconclass.org/48A9844">dolphin ~ ornament</term>
+                    <term corresp="#iconclass" ref="https://iconclass.org/46C232">rowing-boat, canoe, etc.</term>
+                </figDesc>
+            </figure>
+            <figure xml:id="fig24_17">
+                <figDesc>
+                    <term corresp="#iconclass" ref="https://iconclass.org/48A9875">ornament ~ festoon, garland</term>
+                </figDesc>
+            </figure>
                 <ab facs="#facs_43_r5">
                     <lb facs="#facs_43_r5l1" n="N001"/>Similmente di marmo nella medesimo chiesa si vedono raccolti alcuni superbi <seg subtype="sculpture" type="object" source="https://database.census.de/#/detail/225464">capitelli di degnissima inventione, anchor
                     <lb facs="#facs_43_r5l2" n="N002"/>essi della buona arte et proprieta delle cose convenevoli compositi d'ordine</seg> et sibene ordinati che i suoi simboli, assai<lb facs="#facs_43_r5l3" n="N003"/>chiaramente mostrano, esser stati capitelli delle
@@ -6157,7 +6280,15 @@
                     <lb facs="#facs_43_r5l17" n="N017"/>terra et la signoria delle nationi sottoposta
                     <lb facs="#facs_43_r5l18" n="N018"/>al grande imperio.
             </ab>
-             <figure/>
+             <figure xml:id="fig25_17">
+                 <figDesc>
+                    <term corresp="#iconclass" ref="https://iconclass.org/48C1612">capital (~ column, pillar)</term>
+                    <term corresp="#iconclass" ref="https://iconclass.org/48C1634">Corinthian order ~ architecture</term>
+                    <term corresp="#iconclass" ref="https://iconclass.org/48A983111">acanthus ~ ornament</term>
+                    <term corresp="#iconclass" ref="https://iconclass.org/47I2131">ram</term>
+                    <term corresp="#iconclass" ref="https://iconclass.org/92B18(EAGLE)">attributes of Jupiter: eagle</term>
+                 </figDesc>
+             </figure>
                 <pb facs="#facs_44" n="44" xml:id="img_0044"/>
                 <fw type="page-number" facs="#facs_44_TextRegion_1643803371620_1211" place="top">
                     <lb facs="#facs_44_line_1640192155835_1499" n="N001"/>25
@@ -6166,11 +6297,15 @@
                     <lb facs="#facs_44_line_1695052900666_2515" n="N001"/>DI <placeName ref="#ravenna">RAVENNA</placeName>
                 </fw>
                 <ab facs="#facs_44_TextRegion_1693226027233_1068">
-                    <lb facs="#facs_44_r2l2" n="N001"/>Nel muro del <placeName ref="svitale_rav">monastiero di San Vitale</placeName> di <seg subtype="sculpture" type="object" source="https://database.census.de/#/detail/162031">basso rilievo sculpiti in marmo si vedeno queste due figure, quel<lb facs="#facs_44_r2l3" n="N002" break="no"/>la della Tertulla palliata et quella d'Olio Tertulliano</seg>, togata alla usanza romana come nella<placeName ref="#galliacis">Gallia togata</placeName>
+                    <lb facs="#facs_44_r2l2" n="N001"/>Nel muro del <placeName ref="svitale_rav">monastiero di San Vitale</placeName> di <seg subtype="sculpture" type="object" source="https://database.census.de/#/detail/162031">basso rilievo sculpiti in marmo si vedeno queste due figure, quel<lb facs="#facs_44_r2l3" n="N002" break="no"/>la della Tertulla palliata et quella d'Olio Tertulliano</seg>, togata alla usanza romana come nella<placeName ref="#galliacis"> Gallia togata</placeName>
                     <lb facs="#facs_44_r2l4" n="N003"/>vestivano more romano. Onde ne viene appellata <placeName ref="#galliacis">Togata</placeName> la provincia sendo habitata da molte città co<lb facs="#facs_44_r2l5" n="N004" break="no"/>lonie nobilissime dedutte delle magnanime fameglie delle romane tribù. Ordunque la fameglia Olia
                     <lb facs="#facs_44_r2l6" n="N005"/>di cui è memoria questa intitulatione, ne havemo veduti altre cose nell'altri luoghi in <placeName ref="#roma">Roma</placeName> et nel ferariese.
             </ab>
-                <figure>
+                <figure xml:id="fig26_17">
+                <figDesc>
+                    <term corresp="#iconclass" ref="https://iconclass.org/49L8">inscription</term>
+                    <term corresp="#iconclass" ref="https://iconclass.org/41D211(...)">dress, gown (with NAME)</term>
+                </figDesc>
                     <ab facs="#facs_44_TextRegion_1640192169575_1513">
                     <lb facs="#facs_44_r2l11" n="N001"/>
                         <seg subtype="inscription" type="object" source="https://database.census.de/#/detail/162031" xml:lang="la">OLIAE•P•F
@@ -6189,7 +6324,7 @@
                     <lb facs="#facs_44_r2l21" n="N006"/>Non lauda <bibl source="#vitr">Vitruvio</bibl> nelle città i fiumi et gli stagni verso il lato dell'oriente, ma nell'opposito
                     <lb facs="#facs_44_r2l22" n="N007"/>verso ocitente, per ché non vaporano nell'aere della matina ch'è humido et <unclear>strigozza</unclear>. Per la com<lb facs="#facs_44_r2l23" n="N008" break="no"/>modità del porto è stata molto <unclear>commida</unclear>, per la copia dell'acque non buone essa havea le sue cisterne
                     <lb facs="#facs_44_r2l24" n="N009"/>come non abondante d'acque buone, onde <bibl source="#sid_apoll_epist_i">Caio Solio Apollinare nel primo libro dell'epistule</bibl>
-                    <lb facs="#facs_44_r2l25" n="N010"/>tocca il ravennate sito col porto et la penuria dell'acque in questo senso dicendo il vero et non da scher<lb facs="#facs_44_r2l26" n="N011" break="no"/>zo, narrando del suo viaggio da <placeName ref="#brescello">Brixello</placeName> navigando a <placeName ref="#ravenna">Ravenna</placeName> con Aemiliano nocchiero, va dicendo:
+                     <lb facs="#facs_44_r2l25" n="N010"/>tocca il ravennate sito col porto et la penuria dell'acque in questo senso dicendo il vero et non da scher<lb facs="#facs_44_r2l26" n="N011" break="no"/>zo, narrando del suo viaggio da <placeName ref="#brescello">Brixello</placeName> navigando a <placeName ref="#ravenna">Ravenna</placeName> con Aemiliano nocchiero, va dicendo:
                     <lb facs="#facs_44_r2l27" n="N012"/>
                     <quote source="#sid_apoll_epist_i_5_5">BRIXELLVM, DE INDE OPPIDVM, DVM SVCCEDENTI AEMILIANO NAVTAE DECEDIT VENETVS REMEX, TANTUM EXIREMVS
                     <lb facs="#facs_44_r2l28" n="N013"/>INTRAVIMVS RAVENNAM, PAVLO POST CVRSV DEXTERIORI SVBENTES. QVOD LOCI VETEREM CIVITATEM NOVVMQVE PORTVM
@@ -6280,7 +6415,7 @@
                     <placeName ref="#rieti">REATE</placeName>,</head>
                 <ab facs="#facs_46_TextRegion_1693226341033_1145">
                     <lb facs="#facs_46_line_1693226341149_1148" n="N001"/>è città illustissima di <placeName ref="#italia">Italia</placeName> nelli <placeName ref="#sabina">Sabini</placeName>, posta nell'umbelico di <placeName ref="#italia">Italia</placeName> secondo scrive <bibl source="#varro">Varrone</bibl>.
-                    <lb facs="#facs_46_r2l2" n="N002"/>Ella è situata sul fiume <placeName ref="#velino">Vellino</placeName> su un poco di poggio di poca altezza, bella et gran città insino ai no<lb facs="#facs_46_r2l3" n="N003" break="no"/>stri giorni et fu pria edificata dall'umbri, poscia occupata da latini aborigini et mesticati con spar<lb facs="#facs_46_r2l4" n="N004" break="no"/>tani che passarono in <placeName ref="#italia">Italia</placeName> per carestia del vivere, tennero la parte del <placeName ref="#lazionuovo">Latio Novo</placeName> circa al sino det<lb facs="#facs_46_r2l5" n="N005" break="no"/>to <placeName>Amicleno</placeName> et in <placeName>Antio</placeName>, dove apparentati coll'aborigini latini si stesero in questa parte dela <placeName ref="#sabina">Sabi<lb facs="#facs_46_r2l6" n="N006"/>nia</placeName> regione dila de monti <placeName>Falacrini</placeName>. Habitarono <placeName ref="#rieti">Reate</placeName> città allhora degli ombrici, o umbri
+                    <lb facs="#facs_46_r2l2" n="N002"/>Ella è situata sul fiume <placeName ref="#velino">Vellino</placeName> su un poco di poggio di poca altezza, bella et gran città insino ai no<lb facs="#facs_46_r2l3" n="N003" break="no"/>stri giorni et fu pria edificata dall'umbri, poscia occupata da latini aborigini et mesticati con spar<lb facs="#facs_46_r2l4" n="N004" break="no"/>tani che passarono in <placeName ref="#italia">Italia</placeName> per carestia del vivere, tennero la parte del <placeName ref="#lazionuovo">Latio Novo</placeName> circa al sino det<lb facs="#facs_46_r2l5" n="N005" break="no"/>to <placeName>Amicleno</placeName> et in <placeName ref="#anzio">Antio</placeName>, dove apparentati coll'aborigini latini si stesero in questa parte dela <placeName ref="#sabina">Sabi<lb facs="#facs_46_r2l6" n="N006"/>nia</placeName> regione dila de monti <placeName>Falacrini</placeName>. Habitarono <placeName ref="#rieti">Reate</placeName> città allhora degli ombrici, o umbri
                     <lb facs="#facs_46_r2l7" n="N007"/>et uilumbri, poscia questi cacciati da paesani rimasero sabini venuti quivi dali curitani
                     <lb facs="#facs_46_r2l8" n="N008"/>habitatori di <placeName>Curis</placeName>, città parimente di sabini crustumini. Hoggidì questa città chiamano <placeName ref="#rieti">Rieti</placeName>,
                     <lb facs="#facs_46_r2l9" n="N009"/>et delle sue antichità si trova questa <seg subtype="sculpture" type="object" source="https://database.census.de/#/detail/10232095">base rotonda</seg> nel mezzo della sua piazza, sopra dela quale
@@ -6311,7 +6446,12 @@
                     <lb facs="#facs_46_r2l52" n="N042"/>colmo della città
                     <lb facs="#facs_46_line_1642407713840_82" n="N043"/>fecero il <seg subtype="monument" type="object">tem<lb facs="#facs_46_r2l56" n="N044" break="no"/>pio di <rs type="all_god">Pallade</rs>
                     </seg>.</ab>
-                <figure>
+                <figure xml:id="fig27_17">
+                <figDesc>
+                    <term corresp="#iconclass" ref="https://iconclass.org/49L8">inscription</term>
+                    <term corresp="#iconclass" ref="https://iconclass.org/92D42">single Muses</term>
+                    <term corresp="#iconclass" ref="https://iconclass.org/94L">(story of) Hercules (Heracles)</term>
+                </figDesc>
                     <ab facs="#facs_46_TextRegion_1642407713731_74">
                     <lb facs="#facs_46_r2l41" n="N001"/>
                         <seg subtype="inscription" type="object" source="https://database.census.de/#/detail/162032" xml:lang="la">SANCTE
@@ -6333,6 +6473,10 @@
                     <lb facs="#facs_47_r1l3" n="N002"/>gentile lo dice ΡΕΑΤΙΝΟΣ, come da ΡΗΓΙΟΝ, ΡΗΓΙΝΟΣ. Per ciò noi nella nostra lingua dovemo dire reati<lb facs="#facs_47_r1l4" n="N003" break="no"/>no et regino.
             </ab>
                 <figure>
+                <figDesc>
+                    <term corresp="#iconclass" ref=""/>
+                    <term corresp="#iconclass" ref=""/>
+                </figDesc>
                     <ab facs="#facs_47_TextRegion_1695053218281_2635">
                     <lb facs="#facs_47_r1l5" n="N001"/>
                         <seg subtype="inscription" type="object" source="https://database.census.de/#/detail/225343" xml:lang="la">PATRI RHEATINO•SACR
@@ -6348,6 +6492,10 @@
                     </ab>
                 </figure>
                 <figure>
+                <figDesc>
+                    <term corresp="#iconclass" ref=""/>
+                    <term corresp="#iconclass" ref=""/>
+                </figDesc>
                     <ab facs="#facs_47_TextRegion_1642408138732_148">
                     <lb facs="#facs_47_r1l29" n="N001"/>
                         <seg subtype="inscription" type="object" source="https://database.census.de/#/detail/225501" xml:lang="la">T•FVNDILIO•GEMINO•VI•VIR•AVG
@@ -6381,8 +6529,13 @@
                     <lb facs="#facs_47_r1l79" n="N004"/>C•RVSTICELLO•FELICI
                     <lb facs="#facs_47_r1l83" n="N005"/>AFRO•SIGILLARIARIO
                     <lb facs="#facs_47_r1l87" n="N006"/>VIXIT•ANN•L•FECIT•OPPIA</seg>
-                    </placeName></ab>
+                    </placeName>
+                </ab>
                     <figure>
+                    <figDesc>
+                    <term corresp="#iconclass" ref=""/>
+                    <term corresp="#iconclass" ref=""/>
+                </figDesc>
                         <ab facs="#facs_47_TextRegion_1642408154458_169">
                     <lb facs="#facs_47_r1l6" n="N001"/>
                             <seg subtype="inscription" type="object" source="https://database.census.de/#/detail/225512" xml:lang="la">SANC•SAB
